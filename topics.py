@@ -47,6 +47,7 @@ topics_response_format = {
     }
 
 try:
+  print("Completing topics_json_response...")
   for filename in sorted(os.listdir("parseoutput")):
     if topics_json_response[filename] != None:
       continue
