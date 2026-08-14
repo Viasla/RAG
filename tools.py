@@ -57,6 +57,9 @@ def get_response(messages, response_format):
   except BadRequestError as e:
     print(e)
     return None
+  except Exception as e:
+    print(e)
+    return None
 
 def get_definite_response(messages, response_format):
   for _ in range(len(clients)):

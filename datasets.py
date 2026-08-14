@@ -208,29 +208,29 @@ Text: {content}
           }
       ]
 
-    response = get_definite_response(messages, definition_text_extraction_response_format)
+      response = get_definite_response(messages, definition_text_extraction_response_format)
 
-    if response != None:
-      objresponse = json.loads(response.choices[0].message.content)
-      if "Historical Notes" in objresponse:
-        datasets["definitions"][name]["Historical Notes"].extend(objresponse["Historical Notes"])
-      if "Intuition" in objresponse:
-        datasets["definitions"][name]["Intuition"].extend(objresponse["Intuition"])
-      if "Formal Definition" in objresponse:
-        datasets["definitions"][name]["Formal Definition"].extend(objresponse["Formal Definition"])
-      if "Examples" in objresponse:
-        datasets["definitions"][name]["Examples"].extend(objresponse["Examples"])
-      if "Notation" in objresponse:
-        datasets["definitions"][name]["Notation"].extend(objresponse["Notation"])
-      if "Interpretation" in objresponse:
-        datasets["definitions"][name]["Interpretation"].extend(objresponse["Interpretation"])
-      if "Properties" in objresponse:
-        datasets["definitions"][name]["Properties"].extend(objresponse["Properties"])
-      desc["source"].remove(source)
-      print(f"[Full] {name} : {source}")
-      save_datasets()
-    else:
-      print(f"[Empty] {name} : {source}")
+      if response != None:
+        objresponse = json.loads(response.choices[0].message.content)
+        if "Historical Notes" in objresponse:
+          datasets["definitions"][name]["Historical Notes"].extend(objresponse["Historical Notes"])
+        if "Intuition" in objresponse:
+          datasets["definitions"][name]["Intuition"].extend(objresponse["Intuition"])
+        if "Formal Definition" in objresponse:
+          datasets["definitions"][name]["Formal Definition"].extend(objresponse["Formal Definition"])
+        if "Examples" in objresponse:
+          datasets["definitions"][name]["Examples"].extend(objresponse["Examples"])
+        if "Notation" in objresponse:
+          datasets["definitions"][name]["Notation"].extend(objresponse["Notation"])
+        if "Interpretation" in objresponse:
+          datasets["definitions"][name]["Interpretation"].extend(objresponse["Interpretation"])
+        if "Properties" in objresponse:
+          datasets["definitions"][name]["Properties"].extend(objresponse["Properties"])
+        desc["source"].remove(source)
+        print(f"{name} : {source} [Full]")
+        save_datasets()
+      else:
+        print(f"{name} : {source} [Empty]")
   print("Completing theorems in datasets...")
   for name, desc in datasets["theorems"].items():
     if len(desc["source"]) == 0:
