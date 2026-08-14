@@ -5,14 +5,14 @@ import tools
 
 topics_json_response = {}
 
-if os.path.exists(".\\topics_output.json"):
-  topics_json_response = json.load(open(".\\topics_output.json", "r"))
+if os.path.exists("topics_output.json"):
+  topics_json_response = json.load(open("topics_output.json", "r"))
 else:
-  for filename in sorted(os.listdir(".\\parseoutput")):
+  for filename in sorted(os.listdir("parseoutput")):
     topics_json_response[filename] = None
 
 def save_topics():
-  with open(".\\tpics_output.json", "w") as f:
+  with open("topics_output.json", "w") as f:
     json.dump(topics_json_response, f, indent = 4)
 
 topics_response_format = {
@@ -47,10 +47,10 @@ topics_response_format = {
     }
 
 try:
-  for filename in sorted(os.listdir(".\\parseoutput\\")):
+  for filename in sorted(os.listdir("parseoutput")):
     if topics_json_response[filename] != None:
       continue
-    filepath = os.path.join(".\\parseoutput", filename, filename + ".md")
+    filepath = os.path.join("parseoutput", filename, filename + ".md")
     content = None
     with open(filepath, "r") as f:
       content = f.read()
