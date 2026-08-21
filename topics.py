@@ -2,6 +2,7 @@ import os
 import json
 
 import tools
+import correction
 
 topics_json_response = {}
 
@@ -110,6 +111,9 @@ Text:
       topics_json_response[filename] = json.loads(response.choices[0].message.content)
       topics_json_response[filename]["source"] = tools.get_model()
     save_topics()
+  print("Done")
+  print("Correcting...")
+  correction.correct_file("./topics_output.json")
   print("Done")
 except KeyboardInterrupt:
   pass
