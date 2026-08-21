@@ -276,29 +276,29 @@ Text: {content}
           }
       ]
 
-    response = get_definite_response(messages, definition_text_extraction_response_format)
+      response = get_definite_response(messages, definition_text_extraction_response_format)
 
-    if response != None:
-      objresponse = json.loads(response.choices[0].message.content)
-      if "Historical Notes" in objresponse:
-        datasets["theorems"][name]["Historical Notes"].extend(objresponse["Historical Notes"])
-      if "Intuition" in objresponse:
-        datasets["theorems"][name]["Intuition"].extend(objresponse["Intuition"])
-      if "Statement" in objresponse:
-        datasets["theorems"][name]["Statement"].extend(objresponse["Statement"])
-      if "Examples" in objresponse:
-        datasets["theorems"][name]["Examples"].extend(objresponse["Examples"])
-      if "Notation" in objresponse:
-        datasets["theorems"][name]["Notation"].extend(objresponse["Notation"])
-      if "Interpretation" in objresponse:
-        datasets["theorems"][name]["Interpretation"].extend(objresponse["Interpretation"])
-      if "Proof" in objresponse:
-        datasets["theorems"][name]["Proof"].extend(objresponse["Proof"])
-      desc["source"].remove(source)
-      print(f"[Full] {name} : {source}")
-      save_datasets()
-    else:
-      print(f"[Empty] {name} : {source}")
+      if response != None:
+        objresponse = json.loads(response.choices[0].message.content)
+        if "Historical Notes" in objresponse:
+          datasets["theorems"][name]["Historical Notes"].extend(objresponse["Historical Notes"])
+        if "Intuition" in objresponse:
+          datasets["theorems"][name]["Intuition"].extend(objresponse["Intuition"])
+        if "Statement" in objresponse:
+          datasets["theorems"][name]["Statement"].extend(objresponse["Statement"])
+        if "Examples" in objresponse:
+          datasets["theorems"][name]["Examples"].extend(objresponse["Examples"])
+        if "Notation" in objresponse:
+          datasets["theorems"][name]["Notation"].extend(objresponse["Notation"])
+        if "Interpretation" in objresponse:
+          datasets["theorems"][name]["Interpretation"].extend(objresponse["Interpretation"])
+        if "Proof" in objresponse:
+          datasets["theorems"][name]["Proof"].extend(objresponse["Proof"])
+        desc["source"].remove(source)
+        print(f"[Full] {name} : {source}")
+        save_datasets()
+      else:
+        print(f"[Empty] {name} : {source}")
   print("Done")
 except KeyboardInterrupt:
   save_datasets()
