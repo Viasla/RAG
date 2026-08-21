@@ -53,7 +53,7 @@ try:
       continue
     filepath = os.path.join("parseoutput", filename, filename + ".md")
     content = None
-    with open(filepath, "r") as f:
+    with open(filepath, "r", encoding="utf-8") as f:
       content = f.read()
     known_topics = []
     for values in topics_json_response.values():
@@ -83,6 +83,7 @@ Rules:
   - Remove unnecessary context such as "Definition of", "The theorem states that", ect.
 3. Extract only explicit and implicit definition and theorem names. Do not invent or infer new ones.
 4. Do not include section titles, chapter names, or general topics unless they are themselves definitions or theorems.
+5. Use only ASCII symbols. Do not use any LATEX nor unicode symbols.
 
 Existing Topics:
 - {"\n- ".join(known_topics)}
