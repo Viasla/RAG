@@ -37,6 +37,9 @@ def swap_model():
   if model_index == len(models):
     model_index = 0
 
+def get_model():
+  return models[model_index]
+
 def get_response(messages, response_format):
   try:
     return clients[client_index].chat.completions.create(

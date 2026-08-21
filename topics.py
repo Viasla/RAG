@@ -7,6 +7,12 @@ topics_json_response = {}
 
 if os.path.exists("topics_output.json"):
   topics_json_response = json.load(open("topics_output.json", "r"))
+  for filename in sorted(os.listdir("parseoutput")):
+    if not filename in topics_json_response:
+      topics_json_response[filename] = None
+    else:
+      if topics_json_response[filename] != None and not "source" in topics_json_response[filename]:
+        topics_json_response[filename]["source"] = None
 else:
   for filename in sorted(os.listdir("parseoutput")):
     topics_json_response[filename] = None
@@ -102,8 +108,9 @@ Text:
     else:
       print("[Full] " + filename)
       topics_json_response[filename] = json.loads(response.choices[0].message.content)
+      topics_json_response[filename]["source"] = tools.get_model()
     save_topics()
   print("Done")
 except KeyboardInterrupt:
-  save_topics()
   pass
+save_topics()
