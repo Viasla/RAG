@@ -276,7 +276,7 @@ Text: {content}
           }
       ]
 
-      response = get_definite_response(messages, definition_text_extraction_response_format)
+      response = get_definite_response(messages, theorem_text_extraction_response_format)
 
       if response != None:
         objresponse = json.loads(response.choices[0].message.content)
