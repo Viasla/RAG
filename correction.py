@@ -32,7 +32,7 @@ def replace(match):
     #print(f"correcting \\u{value} to {correction_map[value]}")
     return correction_map[value]
   else:
-    print(f"Unknown value {value}, ignored")
+    #print(f"Unknown value {value}, ignored")
     return f"\\u{value}"
 
 def correct_file(filepath):
