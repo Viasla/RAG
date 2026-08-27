@@ -2,15 +2,17 @@ import re
 import sys
 import os
 
-from topics import topics_json_response
-
 UNICODE_ESCAPE_RE = re.compile(
     r"\\u([0-9a-fA-F]{4})"
 )
 
 correction_map = {
-  "00f3": "o",
-    "2013": "-"
+  "00e9" : "e", #with acute
+  "00f3" : "o", #with acute
+  "2013" : "-",
+  "00a0" : "",
+  "2011" : "-",
+  "202f" : ""
 }
 
 
@@ -31,7 +33,7 @@ def replace(match):
     return correction_map[value]
   else:
     print(f"Unknown value {value}, ignored")
-    return value
+    return f"\\u{value}"
 
 def correct_file(filepath):
   content = None
@@ -39,3 +41,5 @@ def correct_file(filepath):
     content = f.read()
   with open(filepath, "w") as f:
     f.write(UNICODE_ESCAPE_RE.sub(replace, content))
+
+correct_file("./datasets test.json")
