@@ -10,6 +10,11 @@ def save_datasets():
   with open("datasets.json", "w") as f:
     json.dump(datasets, f, indent = 4)
 
+dataset_themes = {
+  "definitions" : ["Historical Notes", "Intuition", "Formal Definition", "Examples", "Notation", "Interpretation", "Properties"],
+  "theorems" : ["Historical Notes", "Intuition", "Statement", "Proof", "Examples", "Notation", "Interpretation"]
+}
+
 definition_topics = ["Historical Notes", "Intuition", "Formal Definition", "Examples", "Notation", "Interpretation", "Properties"]
 theorem_topics = ["Historical Notes", "Intuition", "Statement", "Proof", "Examples", "Notation", "Interpretation"]
 
