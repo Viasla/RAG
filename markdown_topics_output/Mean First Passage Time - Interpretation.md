@@ -1,0 +1,5 @@
+# Interpretation
+$m_{ij}$ measures how quickly, on average, the stochastic process will first reach a target state $s_j$ when started elsewhere.  In an absorbing‑chain setting it coincides with the expected time to absorption when $s_j$ is made absorbing.  The quantity captures both the transition probabilities of the chain and the topology of the state space, because it is computed by conditioning on the first step and summing over all possible intermediate states.
+
+The mean first passage matrix M=(m_{ij}) collects, for every ordered pair of states, the expected number of steps required to move from the first to the second state for the first time.  In equilibrium, the average time until the next visit to state i, \bar{m}_i, can be written as a weighted sum \bar{m}_i=\sum_k w_k m_{ki}+w_i r_i, which simplifies to \bar{m}_i = z_{ii}/w_i.  The relationship \sum_j m_{ij} w_j = \sum_j z_{jj}-1 = K shows that the stationary‑weighted average of the mean first passage times from any starting state i is the same constant K, independent of i.
+

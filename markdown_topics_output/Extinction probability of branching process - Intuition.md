@@ -1,0 +1,3 @@
+# Intuition
+The extinction probability is the chance that a branching process eventually reaches a state with no individuals. In a branching process where each individual produces on average $m$ offspring, if $m>1$ the process is supercritical and has a non‑zero chance of surviving indefinitely, whereas if $mle1$ it will almost surely die out. The example illustrates that even when $m$ is slightly greater than one ($m=1.1$), extinction by a fixed generation can still be quite likely: $d_{12}=0.599$ for a bounded offspring distribution and $d_{12}=0.768$ for a Poisson distribution. This demonstrates that the probability of extinction by a finite generation can remain substantial even in a supercritical process.
+

@@ -1,0 +1,3 @@
+# Historical Notes
+The relationship (mathbf{B}=mathbf{N}mathbf{R}) is a classical result in the theory of absorbing Markov chains and appears in many standard texts on stochastic processes. It provides a convenient computational tool for finding absorption probabilities and expected absorption times. The theorem is often associated with the work of Kemeny and Snell in the 1960s, although the underlying concepts were developed earlier by Markov and Kolmogorov. The specific derivation presented here follows the style of standard proofs that express the absorption probabilities in terms of the fundamental matrix and the transition sub‑matrix to absorbing states.
+

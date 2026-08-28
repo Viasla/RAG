@@ -1,0 +1,3 @@
+# Intuition
+A walk of length $2m$ that ends at the origin must have exactly $m$ upward steps and $m$ downward steps.  The number of distinct sequences of $m$ up‑steps and $m$ down‑steps is $inom{2m}{m}$, and each of the $2^{2m}$ possible step sequences is equally likely.  Thus the probability that a random walk of $2m$ steps returns to the origin is the ratio of favorable paths to total paths, yielding $u_{2m}=inom{2m}{m}/2^{2m}$.  The impossibility of returning at an odd step follows from the parity of the walk: each step changes the position by $pm1$, so after an odd number of steps the position cannot be zero.  
+

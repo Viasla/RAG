@@ -1,0 +1,3 @@
+# Intuition
+The fixed vector theorem captures the idea that in a regular Markov chain the long-term behavior is independent of the starting state; after many steps the probability distribution over states converges to a single vector w.  This vector is called a fixed row vector because it is unchanged by multiplication on the right by the transition matrix P (wP = w).  Likewise, a fixed column vector is unchanged by multiplication on the left (Px = x).  The theorem shows that such fixed vectors are unique up to a scalar multiple and, for the row vector, the only unit-sum multiple is the limiting distribution w.  The theorem therefore explains why the steady-state probabilities exist and are unique for regular chains.
+

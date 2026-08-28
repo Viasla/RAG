@@ -1,0 +1,3 @@
+# Intuition
+The Penney‑ante game is a non‑transitive betting game: two players each choose a distinct binary pattern of coin‑toss outcomes, and the first pattern to appear in a sequence of fair coin tosses wins. Because the second player can always choose a pattern that statistically beats the first‑player’s choice, the game is inherently biased toward the player who chooses second, especially for patterns of length three or more. The intuition behind the bias comes from overlapping possibilities: the second player’s pattern can be constructed to exploit the tail of the first player’s pattern, giving it a higher chance of occurring first.
+

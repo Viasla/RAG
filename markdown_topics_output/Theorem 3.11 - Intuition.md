@@ -1,0 +1,3 @@
+# Intuition
+Theorem 3.11 is based on counting the ways to make the a‑cut that results in a fixed ordering with a given number of rising sequences.  If an ordering has r rising sequences, then r‑1 of the division points in the cut are already fixed because a rising sequence must start immediately after a cut.  The remaining a−r division points can be placed in any of the n+1 spaces between cards (including before the first and after the last card) with repetition allowed.  The number of ways to choose these positions is the multiset coefficient ⊕(n+a−r, a−r), which equals ⊕(n+a−r, n).  This combinatorial count gives the desired number of cut‑interleaving pairs.
+

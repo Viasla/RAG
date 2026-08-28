@@ -1,0 +1,3 @@
+# Historical Notes
+The Law of Cosines is a classical result of Euclidean geometry, often attributed to the Greeks, but its explicit use in the Bertrand’s paradox simulation appears in the modern computational context of this text. It provides a bridge between analytic geometry (the chord length formula in terms of \(x,y\) coordinates) and trigonometric description (angles and chord length), allowing for a probabilistic analysis based on angular coordinates. No earlier historical discussion of the law itself is included in this excerpt, but the law is implicitly invoked to derive the chord length in the third simulation method.
+

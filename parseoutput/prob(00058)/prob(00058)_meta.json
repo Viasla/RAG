@@ -1,0 +1,344 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Chapter 6",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          124.23779296875,
+          190.1689453125
+        ],
+        [
+          228.75,
+          190.1689453125
+        ],
+        [
+          228.75,
+          209.98828125
+        ],
+        [
+          124.23779296875,
+          209.98828125
+        ]
+      ]
+    },
+    {
+      "title": "Expected Value and Variance",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          124.3125,
+          235.5
+        ],
+        [
+          486.0,
+          237.0
+        ],
+        [
+          486.0,
+          260.26171875
+        ],
+        [
+          124.3125,
+          260.26171875
+        ]
+      ]
+    },
+    {
+      "title": "6.1\nExpected Value of Discrete Random Variables",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          123.75,
+          301.5
+        ],
+        [
+          486.0,
+          301.5
+        ],
+        [
+          486.0,
+          314.982421875
+        ],
+        [
+          123.75,
+          314.982421875
+        ]
+      ]
+    },
+    {
+      "title": "Average Value",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          125.25,
+          445.5
+        ],
+        [
+          211.5,
+          445.5
+        ],
+        [
+          211.5,
+          456.71484375
+        ],
+        [
+          125.25,
+          456.71484375
+        ]
+      ]
+    },
+    {
+      "title": "CHAPTER 6. EXPECTED VALUE AND VARIANCE",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          238.5,
+          93.0
+        ],
+        [
+          487.5,
+          93.0
+        ],
+        [
+          487.5,
+          103.833984375
+        ],
+        [
+          238.5,
+          103.833984375
+        ]
+      ]
+    },
+    {
+      "title": "Expected Value",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          124.5,
+          359.25
+        ],
+        [
+          218.8916015625,
+          359.25
+        ],
+        [
+          218.8916015625,
+          370.669921875
+        ],
+        [
+          124.5,
+          370.669921875
+        ]
+      ]
+    },
+    {
+      "title": "Interpretation of Expected Value",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          123.75,
+          421.91015625
+        ],
+        [
+          321.0,
+          421.91015625
+        ],
+        [
+          321.0,
+          432.73828125
+        ],
+        [
+          123.75,
+          432.73828125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          36
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          56
+        ],
+        [
+          "TableCell",
+          43
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          48
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          47
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Equation",
+          6
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/prob(00058)"
+}

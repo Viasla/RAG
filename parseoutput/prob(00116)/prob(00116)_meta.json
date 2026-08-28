@@ -1,0 +1,267 @@
+{
+  "table_of_contents": [
+    {
+      "title": "11.5. MEAN FIRST PASSAGE TIME",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          125.25,
+          93.75
+        ],
+        [
+          299.25,
+          93.75
+        ],
+        [
+          299.25,
+          103.9306640625
+        ],
+        [
+          125.25,
+          103.9306640625
+        ]
+      ]
+    },
+    {
+      "title": "Using the Fundamental Matrix to Calculate the Mean First\nPassage Matrix",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          123.75,
+          439.5
+        ],
+        [
+          486.0,
+          439.5
+        ],
+        [
+          486.0,
+          465.22265625
+        ],
+        [
+          123.75,
+          465.22265625
+        ]
+      ]
+    },
+    {
+      "title": "11.5. MEAN FIRST PASSAGE TIME",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          125.25,
+          93.0
+        ],
+        [
+          299.25,
+          93.0
+        ],
+        [
+          299.25,
+          103.5
+        ],
+        [
+          125.25,
+          103.5
+        ]
+      ]
+    },
+    {
+      "title": "Computation",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          124.5,
+          522.0
+        ],
+        [
+          204.0,
+          522.0
+        ],
+        [
+          204.0,
+          535.5
+        ],
+        [
+          124.5,
+          535.5
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          72
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "TextInlineMath",
+          6
+        ],
+        [
+          "Equation",
+          6
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          59
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Equation",
+          7
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          34
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "Equation",
+          12
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          54
+        ],
+        [
+          "Span",
+          29
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/prob(00116)"
+}

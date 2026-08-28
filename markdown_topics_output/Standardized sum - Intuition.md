@@ -1,0 +1,3 @@
+# Intuition
+Standardizing a sum removes two distortions that impede comparison with a normal density: a nonzero mean, which causes the distribution’s spike graph to drift along the x‑axis, and a variance larger than one, which causes the spikes to spread out. By subtracting the expected number of successes np, the peak of the distribution is forced to lie at 0, and by dividing by √(npq), the spread of the spikes is adjusted to have unit variance, matching the scale of a standard normal curve. After this transformation, the discrete spike graph can be compared directly to the continuous density, and the remaining difference is only in the relative heights of the spikes, which can be corrected by a scaling factor 1/ε, where ε = 1/√(npq).
+

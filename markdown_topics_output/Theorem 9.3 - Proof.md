@@ -1,0 +1,3 @@
+# Proof
+Define τ̅p(x) as the step function that equals p(j) on (j−½, j+½).  Its moment generating function is τ̅g(t)=∫_{−∞}^∞ e^{tx}τ̅p(x)dx=g(t)sinh(t/2)/(t/2), where g(t)=∑_{j}p(j)e^{tj}.  Similarly, τ̅g_n(t)=g_n(t)sinh(t/2)/(t/2) and τ̅g_n^*(t)=g_n^*(t)sinh(t/(2√n))/(t/(2√n)).  Since g_n^*(t)→e^{t²/2} as n→∞ and sinh(t/(2√n))/(t/(2√n))→1 by L’Hôpital’s rule, we conclude τ̅g_n^*(t)→e^{t²/2}.  By the Fourier inversion theorem for characteristic functions, this convergence of moment generating functions implies that τ̅p_n^*(x)→(1/√(2π))e^{−x²/2} for all x, establishing the limit distribution.  The step function extension allows the use of continuous‑analysis tools even though the original distributions are purely discrete.
+

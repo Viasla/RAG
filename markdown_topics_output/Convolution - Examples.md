@@ -1,0 +1,3 @@
+# Examples
+Example 7.1: Rolling a die twice.  Each die outcome has distribution m(1)=…=m(6)=1/6.  The convolution m*m gives P(S2=2)=m(1)m(1)=1/36, P(S2=3)=m(1)m(2)+m(2)m(1)=2/36, …, P(S2=12)=1/36, yielding the familiar triangular distribution of two dice sums.  The same method extends to S3 by convolving the distribution of S2 with that of a single die.  Example 7.2: A bridge hand of 13 cards.  Each card has a point count distribution pX with pX(0)=36/52, pX(1)=pX(2)=pX(3)=pX(4)=4/52.  The point count of the hand is the sum of 13 independent such variables, so its distribution is the 13‑fold convolution of pX, which can be computed by the program NFoldConvolution.  From this distribution one can compute P(C≥13)=0.2845, the probability of an opening bid.
+

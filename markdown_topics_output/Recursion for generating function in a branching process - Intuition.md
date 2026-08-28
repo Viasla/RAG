@@ -1,0 +1,3 @@
+# Intuition
+The recursion $h_{n+1}=h_ncirc h$ expresses the idea that the $n+1$‑st generation is obtained by applying the same offspring distribution to every individual of the $n$‑th generation; thus the generating function of the next generation is the composition of the current generating function with the single‑generation generating function. The extinction recursion $d_n=h(d_{n-1})$ captures the probability that the process dies out by generation $n$ as the probability that a single individual has zero children in a process whose “effective” extinction probability at the previous generation is $d_{n-1}$.
+

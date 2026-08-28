@@ -1,0 +1,5 @@
+# Historical Notes
+In the mid‑1800s, Francis Galton observed that the variance of traits such as human height did not appear to change from one generation to the next; this constancy was contrary to what would be expected if a normal distribution were simply convolved from a previous generation. He investigated the phenomenon by conducting experiments with sweet peas and a mechanical device called a quincunx, and from these studies he proposed the idea of a linear ‘reversion’ that pulled extreme values toward the population mean. This concept is now known as regression to the mean, and it has since become a central topic in statistical genetics and in the analysis of repeated measurements.
+
+Galton’s own explanation of the phenomenon is recorded by Stigler (1986) where he describes how the average deviation of progeny from the population mean was in the same direction as that of the parent but only one third as great, thereby producing a linear relationship that maintained overall population variability despite the expectation of increasing variance from repeated convolutions of normal distributions.
+

@@ -1,0 +1,3 @@
+# Interpretation
+Theorem 12.4 demonstrates that the combinatorial structure of the random walk’s crossing events directly governs the distribution of a player’s lead times in a simple coin‑toss game.  It reveals that the most likely numbers of lead changes are the extremes (no times or all times), while the middle value is least likely, mirroring the shape of the arc‑sine density.  The theorem provides a discrete counterpart to the continuous arc‑sine law for the first maximum of symmetric random walks (Theorem 12.6) and illustrates how the same probabilistic mechanism underlies seemingly different phenomena such as lead times and last equalization times.
+

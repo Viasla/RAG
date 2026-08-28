@@ -1,0 +1,3 @@
+# Notation
+Bernoulli trials process
+

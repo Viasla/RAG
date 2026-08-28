@@ -1,0 +1,3 @@
+# Properties
+1. Under H₀ the probability of rejecting it, α(.6), is the upper‑tail probability of a binomial distribution and decreases as the critical value m increases. 2. Under an alternative value p (e.g., p = 0.8), the probability of failing to reject H₀, β(0.8), is the lower‑tail probability and decreases as m decreases. 3. Selecting m to make both α and β below a specified significance level (e.g., 5 %) balances the risks of type 1 and type 2 errors. 4. The null hypothesis often posits no effect or a specific parameter value, and its rejection indicates evidence supporting the alternative hypothesis.
+

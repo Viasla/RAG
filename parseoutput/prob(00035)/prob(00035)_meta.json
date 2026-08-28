@@ -1,0 +1,310 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Chapter 4",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          124.68603515625,
+          191.25
+        ],
+        [
+          228.75,
+          191.25
+        ],
+        [
+          228.75,
+          210.568359375
+        ],
+        [
+          124.68603515625,
+          210.568359375
+        ]
+      ]
+    },
+    {
+      "title": "Conditional Probability",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          125.13427734375,
+          237.0
+        ],
+        [
+          415.5,
+          237.0
+        ],
+        [
+          415.5,
+          261.228515625
+        ],
+        [
+          125.13427734375,
+          261.228515625
+        ]
+      ]
+    },
+    {
+      "title": "4.1\nDiscrete Conditional Probability",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          125.25,
+          303.380859375
+        ],
+        [
+          392.361328125,
+          303.380859375
+        ],
+        [
+          392.361328125,
+          316.916015625
+        ],
+        [
+          125.25,
+          316.916015625
+        ]
+      ]
+    },
+    {
+      "title": "Conditional Probability",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          125.25,
+          330.0
+        ],
+        [
+          265.5,
+          330.0
+        ],
+        [
+          265.5,
+          341.859375
+        ],
+        [
+          125.25,
+          341.859375
+        ]
+      ]
+    },
+    {
+      "title": "Bayes Probabilities",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          123.75,
+          319.5
+        ],
+        [
+          238.5,
+          319.5
+        ],
+        [
+          238.5,
+          330.451171875
+        ],
+        [
+          123.75,
+          330.451171875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          70
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          6
+        ],
+        [
+          "TextInlineMath",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          40
+        ],
+        [
+          "Span",
+          36
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          46
+        ],
+        [
+          "Span",
+          39
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/prob(00035)"
+}

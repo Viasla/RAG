@@ -1,0 +1,3 @@
+# Proof
+Assuming independence of (A_1, A_2, A_3) implies the factorization for any combination of (B_i) because (P(B_i)=P(A_i)) or (P(overline{A_i})=1-P(A_i)) and the intersections reduce to products of probabilities by repeated application of independence. Conversely, suppose the factorization holds for all eight choices of ((B_1,B_2,B_3)). Selecting ((B_1,B_2,B_3)=(A_1,A_2,A_3)) gives (P(A_1cap A_2cap A_3)=P(A_1)P(A_2)P(A_3)). Choosing ((B_1,B_2,B_3)=(A_1,A_2,overline{A_3})) and using the identity (P(A_1cap A_2)=P(A_1cap A_2cap A_3)+P(A_1cap A_2capoverline{A_3})) yields (P(A_1cap A_2)=P(A_1)P(A_2)). Analogous arguments give pairwise independence for the other pairs. Thus all three events are independent.
+

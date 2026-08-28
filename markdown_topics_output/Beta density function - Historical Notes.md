@@ -1,0 +1,3 @@
+# Historical Notes
+The beta density function was introduced as a flexible way to represent prior knowledge about the probability of a binary event, particularly in Bayesian inference where the unknown probability x is modeled as a random variable in the interval [0,1]. Its form, a normalized product of powers of x and 1‑x, captures the shape of a prior belief that may be uniform, skewed, or bell‑shaped, and it allows analytical tractability when combined with binomial likelihoods. The beta distribution quickly became a standard tool for modeling probabilities in statistics, actuarial science, and machine learning.
+

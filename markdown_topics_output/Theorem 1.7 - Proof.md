@@ -1,0 +1,3 @@
+# Proof
+The proof appears in the discussion following Theorem 1.7. It observes that each entry of P y is a linear combination of the entries of y with non‑negative coefficients that sum to 1, i.e., a convex combination or weighted average. By selecting the extreme cases where all but one component of y equals the maximum M₀ and one component equals the minimum m₀, the largest possible value of a component of P y is bounded above by d m₀ + (1–d) M₀, where d is the smallest entry of P. Similarly, the smallest possible value is bounded below by d M₀ + (1–d) m₀. This leads to the inequality M₁ – m₁ ≤ (1 – 2d)(M₀ – m₀), showing that the spread decreases or remains unchanged.
+

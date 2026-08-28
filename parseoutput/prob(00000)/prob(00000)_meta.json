@@ -1,0 +1,235 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Grinstead and Snell's Introduction to Probability",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          133.1279296875,
+          312.0
+        ],
+        [
+          476.33203125,
+          312.0
+        ],
+        [
+          476.33203125,
+          330.75
+        ],
+        [
+          133.1279296875,
+          330.75
+        ]
+      ]
+    },
+    {
+      "title": "The CHANCE \\text{Project}^1",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          243.0,
+          358.5
+        ],
+        [
+          366.064453125,
+          358.5
+        ],
+        [
+          366.064453125,
+          373.5703125
+        ],
+        [
+          243.0,
+          373.5703125
+        ]
+      ]
+    },
+    {
+      "title": "Contents",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          123.75,
+          188.25
+        ],
+        [
+          237.0,
+          188.25
+        ],
+        [
+          237.0,
+          214.435546875
+        ],
+        [
+          123.75,
+          214.435546875
+        ]
+      ]
+    },
+    {
+      "title": "CONTENTS",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          426.75,
+          92.25
+        ],
+        [
+          489.0,
+          92.25
+        ],
+        [
+          489.0,
+          104.25
+        ],
+        [
+          426.75,
+          104.25
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          9
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          3
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          25
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          64
+        ],
+        [
+          "Line",
+          2
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/prob(00000)"
+}

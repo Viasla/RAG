@@ -1,0 +1,3 @@
+# Properties
+For a discrete random variable with finite range, the mgf (g(t)) is uniquely determined by the pmf (p) and conversely; thus moments (or equivalently (g(t))) determine (p) completely.  The first moment equals the mean, the second moment yields variance by (sigma^2=mu_2-mu_1^2).  The mgf is analytic around (t=0) when moments exist.  The moment problem states that if all moments are known, the distribution function is determined uniquely in this discrete finite‑support case.  Two distinct distributions may share the same mean and variance but differ in higher moments, illustrating that moments beyond the second are necessary for full specification.
+

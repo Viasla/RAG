@@ -1,0 +1,5 @@
+# Properties
+h_T(z) satisfies the quadratic equation h_T(z)=pz+qz\,h_T(z)^2; the branch that is analytic at z=0 is h_T(z)=\frac{1-\sqrt{1-4pqz^2}}{2qz}. The sum of the probabilities \sum_n r_n equals h_T(1)=p/q for p<q and equals 1 for p\ge q. The first moment E(T)=h_T'(1) equals 1/(p-q) for p>q and is infinite for p=q. The recursion r_n=0 for even n and r_n = q\sum_{k\ odd< n} r_k r_{n-k} for odd n>1 provides a constructive way to compute the distribution of the hitting time.
+
+1. The chain has exactly two absorbing states, 0 and N; all other states are transient. 2. For p=q, the function f(i)=i is harmonic and yields the linear absorption probability b_{iN}=i/N. 3. For p≠q, the function f(i)=(q/p)^i is harmonic and leads to the geometric absorption probability b_{iN}=[(q/p)^i−1]/[(q/p)^N−1]. 4. The probabilities b_{iN} satisfy the recurrence relation b_{iN}=p,b_{i+1,N}+q,b_{i-1,N} for i∈{1,…,N−1} with boundary conditions b_{0N}=0 and b_{NN}=1. 5. The expected value of the gambler’s fortune remains constant after each step when the step probabilities are equal, reflecting the fair‑game property.
+

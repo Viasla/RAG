@@ -1,0 +1,3 @@
+# Proof
+The proof begins by defining the ordinary generating functions $U(x)=sum_{m=0}^infty u_{2m}x^m$ and $F(x)=sum_{m=0}^infty f_{2m}x^m$.  From Theorem 12.2 one obtains the functional equation $U(x)=1+U(x)F(x)$ (equation 12.1).  Solving for $F(x)$ gives $F(x)=rac{U(x)-1}{U(x)}$.  Using Theorem 12.1, $U(x)=sum_{mge0}inom{2m}{m}2^{-2m}x^m=rac1{sqrt{1-x}}$.  Substituting into the expression for $F(x)$ yields $F(x)=1-(1-x)^{1/2}$.  Expanding $(1-x)^{1/2}$ by the binomial theorem and extracting the coefficient of $x^m$ leads to $f_{2m}=rac{u_{2m-2}}{2m}=rac{inom{2m-2}{m-1}}{m2^{2m-1}}=rac{inom{2m}{m}}{(2m-1)2^{2m}}=rac{u_{2m}}{2m-1}$, which completes the proof.
+

@@ -1,0 +1,3 @@
+# Proof
+Using Equation 4.4, the joint density function f(x1,…,xn) is the nth partial derivative of the joint cumulative distribution function F(x1,…,xn). If the random variables are mutually independent, their joint cumulative distribution function factorises as the product of individual cumulative distribution functions: F(x1,…,xn) = F1(x1) F2(x2) … Fn(xn). Differentiating each side with respect to all variables yields f(x1,…,xn) = f1(x1) f2(x2) … fn(xn). Conversely, if the joint density factorises as a product of marginal densities for all x1,…,xn, integrating each side over appropriate ranges reproduces the product form of the cumulative distribution functions, thus establishing mutual independence.
+

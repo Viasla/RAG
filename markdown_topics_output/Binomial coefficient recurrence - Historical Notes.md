@@ -1,0 +1,3 @@
+# Historical Notes
+The recurrence relation is the foundation for constructing Pascal's triangle, where each entry in the triangle is obtained by adding the two entries immediately above it. This algorithmic property allows for recursive calculation of binomial coefficients and reflects the combinatorial interpretation of subsets. The text presents the relation as a theorem (Theorem 3.4) and demonstrates its application in forming the famous triangle of Pascal, which encodes all binomial coefficients in a matrix format. The recurrence also underlies efficient computer algorithms for computing binomial coefficients.
+

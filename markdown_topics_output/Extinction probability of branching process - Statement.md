@@ -1,0 +1,3 @@
+# Statement
+For a branching process with offspring distribution ${p_j}_{jge0}$ and generating function $f(z)=sum_{j=0}^infty p_j z^j$, the extinction probability $d$ is the smallest non‑negative solution of $d=f(d)$. When the process is observed only up to generation $n$, the probability that it dies out by generation $n$ is denoted $d_n$, which can be computed iteratively using $d_{k+1}=f(d_k)$ with $d_0=0$. In the chain‑letter example, $d_{12}$ was computed using a program and found to be $0.599$ for the finite distribution case and $0.768$ for the Poisson case. The probability of receiving a bonus at or after the twelfth generation is thus $1-d_{12}$, equal to $0.401$ in the finite case and $0.232$ in the Poisson case.
+

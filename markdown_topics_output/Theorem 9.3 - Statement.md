@@ -1,0 +1,3 @@
+# Statement
+For a bounded discrete random variable X taking integer values, with mean μ = 0 and variance σ² = 1, and for independent trials X₁, X₂, …, Xₙ having density p(j), let Sₙ = ∑_{i=1}^n Xᵢ and Sₙ^* = Sₙ/√n.  Define the step‑function extension of the distribution by τ̅p(x)=p(j) for j−½ ≤ x < j+½ and zero otherwise.  Then the step‑function densities τ̅p_n^*(x) of the standardized sums converge pointwise to the standard normal density 1/√(2π) e^{−x²/2} as n→∞.  Consequently the distribution functions F_n^*(a)=P(S_n^*≤a) converge to Φ(a)=∫_{−∞}^a 1/√(2π) e^{−x²/2}dx.  The theorem holds under the stated hypotheses, and the greatest common divisor condition on the support of X is not required in the sketch provided.
+

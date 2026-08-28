@@ -1,0 +1,3 @@
+# Interpretation
+The matrix D provides a concise summary of how often each state is revisited in the long run.  Its diagonal entries r_i equal the expected number of steps between successive visits to state s_i, so larger diagonal values correspond to states that are visited less frequently.  The zero off‑diagonal entries emphasize that D records only return times, not the paths taken between distinct states.  Because r_i = 1/w_i, D also reflects the stationary distribution: states with higher stationary probability have smaller mean recurrence times, indicating more frequent visits in the stationary regime.
+

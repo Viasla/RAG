@@ -1,0 +1,3 @@
+# Historical Notes
+Theorem 12.4 is presented in the context of the arc sine laws in section 12.3 of the text, following the analysis of the distribution of the last equalization time in a symmetric random walk (Equation 12.9). It is attributed to results originally found in Feller, specifically on pp. 93–94 of his classic book, where similar relationships between lead times in a game of Heads or Tails and arc sine distributions were first established. The theorem builds directly on earlier results such as Theorem 12.2 and Exercise 12.1.7, which provide base values for the probabilities (b_{2m,2m}) and (b_{0,2m}).
+

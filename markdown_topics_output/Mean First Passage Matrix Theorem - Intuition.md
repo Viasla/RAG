@@ -1,0 +1,3 @@
+# Intuition
+The theorem shows that the expected number of steps needed to go from state $i$ to state $j$ (the mean first‑passage time $m_{ij}$) can be read directly from the fundamental matrix $Z$. The entry $z_{jj}$ measures the total expected time spent in state $j$ starting from the stationary distribution, while $z_{ij}$ measures the same quantity when the chain starts in state $i$. Subtracting $z_{ij}$ from $z_{jj}$ isolates the extra waiting time caused by starting away from $j$, and dividing by the stationary probability $w_j$ normalises this by the long‑run frequency of visits to $j$.
+

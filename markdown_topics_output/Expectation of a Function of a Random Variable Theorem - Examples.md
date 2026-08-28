@@ -1,0 +1,3 @@
+# Examples
+Example 6.6 considers tossing a fair coin three times. Let X denote the specific sequence of heads and tails, and let Y denote the number of runs in that sequence (a run being a maximal block of identical outcomes). The table of all eight possible sequences and their associated Y‑values is given. Computing E(Y) by first finding the distribution of Y yields E(Y)=2. The same result is obtained by applying Theorem 6.1 directly: E(Y)=∑_{x∈Ω}Y(x)·P(X=x)=1·1/8+2·1/8+3·1/8+…+1·1/8=2. This example demonstrates how the theorem avoids the intermediate step of grouping outcomes with the same Y‑value.
+

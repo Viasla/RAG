@@ -1,0 +1,5 @@
+# Intuition
+The matrix records the expected number of steps required to reach each state from each other state before the first visit occurs.  The diagonal entries are zero because no steps are required to start in the target state.  The entries reflect how quickly a chain can move from one state to another, and they are closely related to the stationary distribution through the mean recurrence times.
+
+The mean first passage matrix captures how long, on average, a chain will wander before it first lands in a particular target state, regardless of the path taken. For a two–state chain, the entries of $M$ can be found by solving linear equations based on the transition probabilities. For more complex chains, the relationship with $Z$ simplifies computation because $Z$ already encodes cumulative transition information. The formula $m_{ij}=(z_{jj}-z_{ij})/w_j$ reflects that the expected time is larger when $z_{ij}$ is small relative to $z_{jj}$; that is, when it is harder to reach $j$ from $i$ compared to staying in $j$.
+

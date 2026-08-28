@@ -1,0 +1,113 @@
+{
+  "table_of_contents": [
+    {
+      "title": "INDEX",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          124.5,
+          93.0
+        ],
+        [
+          160.5,
+          93.0
+        ],
+        [
+          160.5,
+          105.0908203125
+        ],
+        [
+          124.5,
+          105.0908203125
+        ]
+      ]
+    },
+    {
+      "title": "510\\,",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          124.5,
+          93.0
+        ],
+        [
+          141.75,
+          93.0
+        ],
+        [
+          141.75,
+          104.220703125
+        ],
+        [
+          124.5,
+          104.220703125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          90
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          71
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/prob(00129)"
+}

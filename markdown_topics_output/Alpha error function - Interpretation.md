@@ -1,0 +1,3 @@
+# Interpretation
+α(p) describes how likely a hypothesis test will incorrectly reject the null when the true parameter is p.  When the null hypothesis states p=0.6, α(.6) is the probability that a high number of successes (>m) occurs purely by chance.  For alternative values of p such as 0.8, α(p) can be interpreted as the probability of incorrectly rejecting the null even though the drug is genuinely more effective; thus β(p)=1−α(p) represents the chance of missing this improvement (a type 2 error).  Choosing m to make α(.6) and β(.8) simultaneously below a desired significance level balances the two error types.
+

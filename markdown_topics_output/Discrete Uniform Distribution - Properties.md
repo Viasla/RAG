@@ -1,0 +1,3 @@
+# Properties
+• All outcomes in a finite sample space of size n are equally likely, each with probability 1/n.  • The sum of probabilities equals 1 because n·(1/n)=1.  • A computer simulation of a discrete uniform distribution can be performed efficiently with the formula 1 + ⌊n·rnd⌋, yielding each integer 1,…,n with equal likelihood.  • A discrete uniform distribution cannot exist on a countably infinite sample space such as the set of positive integers; the text notes this impossibility (see Exercise 3).  • For uncountable sample spaces of positive finite length (e.g., the interval [0,1]), a continuous density function is used instead (see Section 5.2).
+

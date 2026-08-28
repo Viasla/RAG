@@ -1,0 +1,3 @@
+# Examples
+Example 1.6 – Rolling a die once. The sample space is Ω = {1,2,3,4,5,6}. The event E = {2,4,6} corresponds to an even result, and the probability of each outcome is 1/6.\nExample 1.7 – Tossing a coin twice. Using outcomes in order, Ω = {HH,HT,TH,TT}. Each outcome has probability 1/4. The event E = {HH,HT,TH} has probability 3/4.\nExample 1.8 – (Continuation of the die example). The same sample space Ω = {1,2,3,4,5,6} with distribution m(i)=1/6; event E = {2,4,6} has probability 1/2.\nExample 1.9 – Three candidates A, B, C run for office. The sample space is Ω = {A,B,C}. The distribution satisfies m(A)=m(B)=2m(C) and m(A)+m(B)+m(C)=1.
+

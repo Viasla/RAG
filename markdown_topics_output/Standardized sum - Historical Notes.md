@@ -1,0 +1,3 @@
+# Historical Notes
+The concept of a standardized sum arises in the context of the Central Limit Theorem (CLT), which describes the behavior of sums of a large number of independent random variables. In the specific case of Bernoulli trials, the CLT motivates transforming the binomial sum S_n by subtracting its mean np and dividing by its standard deviation √(npq) to obtain a standardized version that approximates the standard normal distribution as n grows. This technique has been a foundational step in probability theory for relating discrete distributions to continuous normal approximations.
+

@@ -1,0 +1,3 @@
+# Statement
+In an absorbing Markov chain, let the state space be partitioned into transient states (s_i) and absorbing states (s_j). Define (b_{ij}) to be the probability that, starting from transient state (s_i), the chain is eventually absorbed in absorbing state (s_j). Let (p_{ij}) denote the one‑step transition probability from (s_i) to (s_j). The theorem states that the matrix (mathbf{B}=(b_{ij})) of absorption probabilities satisfies the linear system (mathbf{B}=mathbf{N}mathbf{R}), where (mathbf{N}=(mathbf{I}-mathbf{Q})^{-1}) is the fundamental matrix and (mathbf{R}) contains the transition probabilities from transient to absorbing states.
+

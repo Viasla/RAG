@@ -1,0 +1,3 @@
+# Intuition
+Theorem 3.12 is derived by counting the set of all a‑shuffles of an n‑card deck in two independent ways: first, directly, there are a^n distinct a‑shuffles because each of the n cards can be assigned to one of a stacks. Second, every a‑shuffle produces some ordering of the deck, and for each possible ordering with r rising sequences, Theorem 3.11 gives the exact number of cut‑interleaving pairs that result in that ordering, namely \binom{n+a-r}{n}. Summing these counts over all r from 1 to a yields the same total number of shuffles, a^n. This combinatorial double‑counting argument provides the identity and gives a convenient recursion for Eulerian numbers.
+

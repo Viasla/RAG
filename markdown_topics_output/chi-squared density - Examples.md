@@ -1,0 +1,3 @@
+# Examples
+In testing independence of two categorical traits with \(a\) and \(b\) possible values, the degrees of freedom are \((a-1)(b-1)\). For the example in the text, \(a\) and \(b\) yield three degrees of freedom. A computer simulation of 1000 experiments produced a histogram of \(\chi^2\) values that matches the chi‑squared density with three degrees of freedom (Figure 5.12). The actual data gave a chi‑squared value of 4.13; consulting a chi‑squared table with three degrees of freedom, the 5 % critical value is \(v_0=7.815\). Since 4.13 < 7.815, the hypothesis of independence is not rejected.
+

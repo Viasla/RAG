@@ -1,0 +1,271 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Exercises",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          124.91015625,
+          648.0
+        ],
+        [
+          180.0,
+          648.0
+        ],
+        [
+          180.0,
+          658.58203125
+        ],
+        [
+          124.91015625,
+          658.58203125
+        ]
+      ]
+    },
+    {
+      "title": "11.2\nAbsorbing Markov Chains",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          125.25,
+          119.49609375
+        ],
+        [
+          357.0,
+          119.49609375
+        ],
+        [
+          357.0,
+          132.451171875
+        ],
+        [
+          125.25,
+          132.451171875
+        ]
+      ]
+    },
+    {
+      "title": "Drunkard's Walk",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          123.75,
+          293.25
+        ],
+        [
+          226.810546875,
+          293.25
+        ],
+        [
+          226.810546875,
+          305.5078125
+        ],
+        [
+          123.75,
+          305.5078125
+        ]
+      ]
+    },
+    {
+      "title": "Canonical Form",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          124.5,
+          648.75
+        ],
+        [
+          219.75,
+          648.75
+        ],
+        [
+          219.75,
+          659.7421875
+        ],
+        [
+          124.5,
+          659.7421875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          35
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          75
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          64
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/prob(00105)"
+}

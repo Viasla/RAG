@@ -1,0 +1,3 @@
+# Intuition
+Absorption probability from a transient state $s_i$ to a particular absorbing state $s_j$ can be viewed as the sum over all possible times $n$ at which the chain first enters $s_j$, weighted by the probability of being in each transient state $s_k$ at time $n$ and then moving to $s_j$ in the next step. The matrix $N$ captures the expected number of visits to each transient state $s_k$ starting from $s_i$, while $R$ gives the one‑step probabilities of jumping from a transient state to each absorbing state. Their product therefore aggregates over all intermediate transient states, yielding the total absorption probability to $s_j$.
+

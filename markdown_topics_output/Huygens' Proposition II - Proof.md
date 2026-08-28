@@ -1,0 +1,3 @@
+# Proof
+Huygens considered a game among three players A, B, and C, each staking (a + b + c)/3 with an equal chance of winning. The value of the game to player A is the stake. He then modifies the game by adding agreements: if one of the players wins he pays the other a consolation prize of b when B wins, and of c when C wins. These agreements do not change the game's value by symmetry. After the modifications, if A wins the final payoff is a; if B wins, A receives b; if C wins, A receives c. Thus A faces a game where outcomes a, b, c occur with equal probability and has value (a + b + c)/3, proving the proposition.
+

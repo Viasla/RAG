@@ -1,0 +1,3 @@
+# Proof
+Huygens constructs a new gamble with p+q elementary outcomes, each equally likely. In p of those outcomes the payoff is a and in the remaining q outcomes the payoff is b. The expected value of this symmetric gamble is the simple arithmetic mean of its p+q outcomes, i.e. (p·a + q·b)/(p+q). By symmetry this value equals the value of the original asymmetric gamble, since the same set of possibilities and same stake can be rearranged without affecting the game’s fairness. Therefore the expected value of the original two‑outcome game with probabilities p/(p+q) and q/(p+q) is precisely (p/(p+q))·a + (q/(p+q))·b.
+

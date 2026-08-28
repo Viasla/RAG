@@ -1,0 +1,3 @@
+# Proof
+The proof counts the total number of paths of length 2n that start and end at the origin, which is u_{2n}2^{2n}. Each such path is uniquely classified by the time 2k (0\le k\le n) of its first return to the origin. For a fixed k, the initial segment from (0,0) to (2k,0) is a first‑return path, occurring with probability f_{2k} and having 2^{2k} possible realizations; the remaining segment from (2k,0) to (2n,0) is an unrestricted return path, occurring with probability u_{2n-2k} and having 2^{2n-2k} realizations. Hence the number of paths with first return at time 2k is f_{2k}2^{2k}\,u_{2n-2k}2^{2n-2k}=f_{2k}u_{2n-2k}2^{2n}. Summing over k yields u_{2n}2^{2n}=\sum_{k=0}^{n}f_{2k}u_{2n-2k}2^{2n}. Dividing both sides by 2^{2n} gives the stated equation.
+

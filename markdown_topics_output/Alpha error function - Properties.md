@@ -1,0 +1,3 @@
+# Properties
+• α(p) is non‑increasing in the critical value m: increasing m lowers the upper‑tail probability.  • For a fixed n, α(.6) decreases as m increases, approaching 0 for m>np.  • α(p) is an upper‑tail of the binomial distribution and is symmetric to β(p)=1−α(p) for the lower tail.  • At m equal to the most probable value np, α(p) is largest and β(p) is smallest.  • For a given n, a range of m may satisfy multiple error constraints; e.g., m∈{69,…,73} keeps both α(.6) and β(.8) under 5 % in the aspirin example.  • To reduce α(p) below 1 % while keeping the same m, one must increase the sample size n.
+

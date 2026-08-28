@@ -1,0 +1,3 @@
+# Proof
+For each transient state (s_j), let (m_j) be the minimal number of steps needed to reach an absorbing state and let (p_j) be the probability that the chain has not reached an absorbing state in (m_j) steps. By construction (p_j<1). Let (m=max_j m_j) and (p=max_j p_j). The probability of not being absorbed in (m) steps is at most (p); in (2m) steps it is at most (p^2); in (ell m) steps it is at most (p^ell). Since (p<1), these probabilities converge to 0 as (ell	oinfty). Because the probability of not being absorbed in (n) steps is monotone decreasing in (n), it follows that (lim_{n	oinfty}mathbf{Q}^n=mathbf{0}), proving the theorem.
+

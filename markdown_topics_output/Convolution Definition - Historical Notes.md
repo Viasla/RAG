@@ -1,0 +1,3 @@
+# Historical Notes
+Section 7.1 discusses discrete convolution of distributions, noting that the convolution of two binomial distributions with parameters (m,p) and (n,p) results in a binomial distribution with parameters (m+n,p), and that the convolution of k geometric distributions with common parameter p yields a negative binomial distribution with parameters (p,k).  This illustrates that convolution combines the distributions of sums of independent discrete random variables.  Section 7.2 extends the concept to continuous random variables, providing a formal integral definition.  The text references earlier work in Section 7.1 as the antecedent of the continuous definition.
+

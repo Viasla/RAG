@@ -1,0 +1,3 @@
+# Proof
+The expected time to absorption from state $s_i$ equals the expected number of visits to all transient states before absorption.  In the fundamental matrix $mathbf{N}$, the entry $n_{ij}$ counts the expected number of visits to transient state $s_j$ given a start in $s_i$.  Thus the sum of the $i$th row of $mathbf{N}$ is the expected total number of visits to transient states, which is precisely the expected number of steps until absorption from $s_i$.  Writing this for all $i$ simultaneously yields $mathbf{t}$ as the vector of row sums of $mathbf{N}$, and the vector of row sums is $mathbf{N}mathbf{c}$ with $mathbf{c}$ a column of ones.
+

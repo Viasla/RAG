@@ -1,0 +1,3 @@
+# Intuition
+The probability of being in state s_j after two steps can be computed by multiplying the transition probabilities of the two steps, i.e., p_{13}^{(2)} = p_{11}p_{13} + p_{12}p_{23} + p_{13}p_{33}.  This is equivalent to taking the dot product of the first row of the transition matrix P with the third column of P, which is precisely the (1,3)-entry of the product P^2.  In general, the entry p_{ij}^{(n)} is obtained by summing over all intermediate states the product of the transition probabilities for the two substeps, which is the (i,j)-entry of P^n.  Thus the theorem reflects that matrix multiplication encodes successive-step transition probabilities.
+

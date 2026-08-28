@@ -1,0 +1,3 @@
+# Intuition
+Theorem 10.3 shows that if a continuous random variable X has bounded support—specifically, its range lies in the finite interval [−M,M]—then its moment generating function (MGF) g(t)=∑ₖ≥0 μₖtᵏ/k! converges for every real value of t.  Because the support is bounded, the k‑th moment μₖ is dominated by Mᵏ, which guarantees that the power series has an infinite radius of convergence.  Consequently g(t) defines a smooth, infinitely differentiable function on the entire real line, and the nth derivative of g evaluated at 0 reproduces the nth moment μₙ.  This is the continuous analogue of the fact that a discrete MGF always converges for all t; Theorem 10.3 guarantees the same property for continuous variables with bounded support.
+

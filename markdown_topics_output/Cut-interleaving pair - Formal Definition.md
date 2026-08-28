@@ -1,0 +1,3 @@
+# Formal Definition
+A cut‑interleaving pair for an a‑shuffle on an n‑card deck is an ordered pair (C,I) where C is a composition of n into a non‑negative integer vector (c_0,\dots,c_{a-1}) indicating how many cards are placed in each of the a labelled stacks, and I is an interleaving rule that merges the a stacks into a single sequence while preserving the internal order of each stack. Equivalently, a cut‑interleaving pair can be identified with an n‑digit base‑a integer (d_1\dots d_n) where the i‑th digit d_i\in\{0,\dots,a-1\} denotes the stack that contains the i‑th card in the final ordering.
+

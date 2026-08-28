@@ -1,0 +1,3 @@
+# Intuition
+The absorption probability from a given transient state is built recursively: either the chain moves directly into the absorbing state in the next step (captured by (mathbf{R})), or it first moves to another transient state and then eventually gets absorbed (captured by (mathbf{Q}mathbf{B})). The matrix identity rearranges this recursive relationship into a closed‑form solution, where the inverse ((mathbf{I}-mathbf{Q})^{-1}) sums over all possible numbers of visits to transient states. This mirrors the idea that the total probability of absorption is the sum over all possible sequences of transient steps leading into an absorbing state.
+

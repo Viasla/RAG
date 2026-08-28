@@ -1,0 +1,3 @@
+# Interpretation
+Using the Law of Cosines to express the chord length as a function of the angle \(\alpha\) reveals how the probability distribution of chord lengths changes when sampling angles uniformly. Because the law relates chord length to central angle, it provides an elegant method to compute probabilities such as \(P(L>\sqrt{3})\) by measuring the proportion of angles that satisfy the inequality \(\sqrt{2-2\cos\alpha}>\sqrt{3}\), leading to the analytic probability of \(1/3\) in that simulation case. This contrasts with other sampling schemes (uniform midpoints or horizontal chords), which yield probabilities of \(1/4\) and \(1/2\), respectively, demonstrating the sensitivity of geometric probability to the chosen method of randomization.
+

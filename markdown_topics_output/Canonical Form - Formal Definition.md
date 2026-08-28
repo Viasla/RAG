@@ -1,0 +1,5 @@
+# Formal Definition
+For an absorbing Markov chain with r absorbing states and t transient states, after renumbering so that the transient states are listed first, the transition matrix P can be written in canonical form as a block matrix \nP = \begin{pmatrix} Q & R \\ 0 & I \end{pmatrix}, where Q (t×t) contains the transition probabilities among transient states, R (t×r) contains the probabilities of moving from transient to absorbing states, 0 is an r×t zero matrix, and I is an r×r identity matrix.
+
+In the canonical form the transition matrix is partitioned into sub‑matrices where the sub‑matrix \(\mathbf{R}\) contains the probabilities of moving from each transient state to each absorbing state.  The matrix \(\mathbf{Q}\) contains the probabilities of moving between transient states, and the identity matrix \(\mathbf{I}\) represents the absorbing states.  The fundamental matrix is defined as \(\mathbf{N}=(\mathbf{I}-\mathbf{Q})^{-1}\), and the matrix of absorption probabilities is \(\mathbf{B}=\mathbf{N}\mathbf{R}\).
+

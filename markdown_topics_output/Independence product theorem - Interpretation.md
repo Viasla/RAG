@@ -1,0 +1,3 @@
+# Interpretation
+The product theorem allows decomposition of joint probabilities into simple factors when events are independent, simplifying calculations in continuous settings.  It also provides a practical test for independence: if observed joint probability equals the product of marginals, the events are independent; conversely, if a product relationship holds, the events are independent.  This is especially useful in scenarios where joint densities factorise, such as independent coordinates in geometric probability.  The theorem also underlies many statistical methods where assumptions of independence lead to multiplicative forms of likelihoods.
+

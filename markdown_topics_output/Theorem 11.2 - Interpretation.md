@@ -1,0 +1,3 @@
+# Interpretation
+Theorem 11.2 tells us that the state distribution after n steps is fully determined by the initial distribution u and the transition matrix P through the matrix product uPⁿ.  The i‑th component of the resulting vector u^(n) gives the probability that the chain is in state s_i after n steps, regardless of how many intermediate states the chain has visited.  If the chain starts in a single state s_i (i.e., u is the unit vector e_i), then u^(n)=e_iPⁿ and the i‑th row of Pⁿ gives the probabilities of being in each state after n steps.  Thus Theorem 11.2 provides a concise computational rule for evolving the distribution of a Markov chain over time.
+

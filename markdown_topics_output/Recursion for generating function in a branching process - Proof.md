@@ -1,0 +1,3 @@
+# Proof
+Starting from $h_{n+1}(z)=E(z^{Z_{n+1}})=sum_kE(z^{Z_{n+1}}mid Z_n=k)P(Z_n=k)$ and noting that when $Z_n=k$, $Z_{n+1}=X_1+cdots+X_k$ where the $X_i$ are i.i.d. with generating function $h(z)$, we have $E(z^{Z_{n+1}}mid Z_n=k)=(h(z))^k$. Substituting into the sum gives $h_{n+1}(z)=sum_k(h(z))^kP(Z_n=k)=h_n(h(z))$. Differentiating the identity with respect to $z$ and using the chain rule yields $h'_{n+1}(z)=h'_n(h(z))h'(z)$. Evaluating at $z=1$ and using $h(1)=1$, $h'(1)=m$ and $h'_n(1)=m_n$, we obtain $m_{n+1}=m_nm$, which inductively gives $m_n=m^n$. The recursion $d_n=h(d_{n-1})$ follows from the definition $d_n=P(Z_n=0)$ and the same conditioning argument applied to extinction events.
+

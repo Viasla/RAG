@@ -1,0 +1,2682 @@
+{
+    "prob(00000)": {
+        "items": [
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Fundamental Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Mean First Passage Time",
+                "type": "definition"
+            },
+            {
+                "name": "Absorbing Markov Chain",
+                "type": "definition"
+            },
+            {
+                "name": "Ergodic Markov Chain",
+                "type": "definition"
+            },
+            {
+                "name": "Gambler's Ruin",
+                "type": "theorem"
+            },
+            {
+                "name": "Arc Sine Law",
+                "type": "theorem"
+            },
+            {
+                "name": "Bernoulli Trial",
+                "type": "definition"
+            },
+            {
+                "name": "Independent Trial",
+                "type": "definition"
+            },
+            {
+                "name": "Random Walk in Euclidean Space",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00001)": {
+        "items": [
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00002)": {
+        "items": [
+            {
+                "name": "Random Variable",
+                "type": "definition"
+            },
+            {
+                "name": "Distribution Function",
+                "type": "definition"
+            },
+            {
+                "name": "Bernoulli Trial",
+                "type": "definition"
+            },
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00003)": {
+        "items": [],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00004)": {
+        "items": [
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "chi-squared test",
+                "type": "definition"
+            },
+            {
+                "name": "martingale",
+                "type": "definition"
+            },
+            {
+                "name": "Labouchere system",
+                "type": "definition"
+            },
+            {
+                "name": "Monte Carlo Method",
+                "type": "definition"
+            },
+            {
+                "name": "General Simulation",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00005)": {
+        "items": [
+            {
+                "name": "Labouchere system",
+                "type": "definition"
+            },
+            {
+                "name": "martingale",
+                "type": "definition"
+            },
+            {
+                "name": "Random Walk in Euclidean Space",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00006)": {
+        "items": [
+            {
+                "name": "Random Variable",
+                "type": "definition"
+            },
+            {
+                "name": "Sample Space",
+                "type": "definition"
+            },
+            {
+                "name": "Outcome",
+                "type": "definition"
+            },
+            {
+                "name": "Event",
+                "type": "definition"
+            },
+            {
+                "name": "Distribution Function",
+                "type": "definition"
+            },
+            {
+                "name": "P\u00f3lya's Recurrence Theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00007)": {
+        "items": [
+            {
+                "name": "Union of sets",
+                "type": "definition"
+            },
+            {
+                "name": "Intersection of sets",
+                "type": "definition"
+            },
+            {
+                "name": "Set difference",
+                "type": "definition"
+            },
+            {
+                "name": "Subset relation",
+                "type": "definition"
+            },
+            {
+                "name": "Complement of a set",
+                "type": "definition"
+            },
+            {
+                "name": "Probability of an event",
+                "type": "definition"
+            },
+            {
+                "name": "Probability axioms",
+                "type": "theorem"
+            },
+            {
+                "name": "Finite additivity for disjoint events",
+                "type": "theorem"
+            },
+            {
+                "name": "Law of total probability for a partition",
+                "type": "theorem"
+            },
+            {
+                "name": "Inclusion\u2013exclusion for two sets",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00008)": {
+        "items": [
+            {
+                "type": "theorem",
+                "name": "Inclusion-exclusion for two sets"
+            },
+            {
+                "type": "definition",
+                "name": "Uniform distribution"
+            },
+            {
+                "type": "definition",
+                "name": "Odds in favor of an event"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00009)": {
+        "items": [
+            {
+                "name": "Definition of distribution function",
+                "type": "definition"
+            },
+            {
+                "name": "Theorem 1.1",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 1.2",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 1.4",
+                "type": "theorem"
+            },
+            {
+                "name": "Definition of uniform distribution function",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00010)": {
+        "items": [],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00011)": {
+        "items": [
+            {
+                "name": "Definition 1.3",
+                "type": "definition"
+            },
+            {
+                "name": "Definition of distribution function",
+                "type": "definition"
+            },
+            {
+                "name": "Definition of uniform distribution function",
+                "type": "definition"
+            },
+            {
+                "name": "Theorem 1.1",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 1.2",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 1.4",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00012)": {
+        "items": [
+            {
+                "type": "definition",
+                "name": "Monte Carlo procedure"
+            },
+            {
+                "type": "theorem",
+                "name": "Buffon's Needle"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00013)": {
+        "items": [],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00014)": {
+        "items": [
+            {
+                "name": "Law of Cosines",
+                "type": "theorem"
+            },
+            {
+                "name": "Buffon's Needle",
+                "type": "definition"
+            },
+            {
+                "name": "Theorem 1.1",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 1.2",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 1.4",
+                "type": "theorem"
+            },
+            {
+                "name": "Definition 1.3",
+                "type": "definition"
+            },
+            {
+                "name": "Definition of uniform distribution function",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00015)": {
+        "items": [
+            {
+                "name": "Buffon's Needle",
+                "type": "theorem"
+            },
+            {
+                "name": "density function",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00016)": {
+        "items": [
+            {
+                "name": "Density Function Definition",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00017)": {
+        "items": [
+            {
+                "name": "Definition of distribution function",
+                "type": "definition"
+            },
+            {
+                "name": "Density and CDF relationship theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00018)": {
+        "items": [
+            {
+                "name": "Exponential density",
+                "type": "definition"
+            },
+            {
+                "name": "Memoryless property",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00019)": {
+        "items": [
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00020)": {
+        "items": [
+            {
+                "name": "Density function",
+                "type": "definition"
+            },
+            {
+                "name": "Counting technique",
+                "type": "definition"
+            },
+            {
+                "name": "Tree diagram",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00021)": {
+        "items": [
+            {
+                "name": "Permutation",
+                "type": "definition"
+            },
+            {
+                "name": "k-Permutation",
+                "type": "definition"
+            },
+            {
+                "name": "Number of Permutations Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Number of k-Permutations Theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00022)": {
+        "items": [
+            {
+                "name": "Asymptotic Equality",
+                "type": "definition"
+            },
+            {
+                "name": "Record of a Permutation",
+                "type": "definition"
+            },
+            {
+                "name": "Stirling's Formula",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00023)": {
+        "items": [
+            {
+                "name": "Derangement",
+                "type": "definition"
+            },
+            {
+                "name": "Inclusion-Exclusion Principle",
+                "type": "theorem"
+            },
+            {
+                "name": "Infinitude of Primes",
+                "type": "theorem"
+            },
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Stirling's Formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Number of Permutations Theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00024)": {
+        "items": [
+            {
+                "name": "Stirling's Formula",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00025)": {
+        "items": [
+            {
+                "name": "Binomial coefficient",
+                "type": "definition"
+            },
+            {
+                "name": "Bernoulli Trial",
+                "type": "definition"
+            },
+            {
+                "name": "Binomial coefficient recurrence",
+                "type": "theorem"
+            },
+            {
+                "name": "Binomial coefficient formula",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00026)": {
+        "items": [
+            {
+                "name": "Binomial probability formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Binomial distribution",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00027)": {
+        "items": [
+            {
+                "name": "Critical value",
+                "type": "definition"
+            },
+            {
+                "name": "Null hypothesis",
+                "type": "definition"
+            },
+            {
+                "name": "Alternative hypothesis",
+                "type": "definition"
+            },
+            {
+                "name": "Type 1 error",
+                "type": "definition"
+            },
+            {
+                "name": "Type 2 error",
+                "type": "definition"
+            },
+            {
+                "name": "Alpha error function",
+                "type": "definition"
+            },
+            {
+                "name": "Beta error function",
+                "type": "definition"
+            },
+            {
+                "name": "Binomial Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Inclusion-Exclusion Principle",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00028)": {
+        "items": [],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00029)": {
+        "items": [
+            {
+                "name": "Binomial coefficient",
+                "type": "definition"
+            },
+            {
+                "name": "Binomial coefficient recurrence",
+                "type": "definition"
+            },
+            {
+                "name": "Binomial coefficient formula",
+                "type": "definition"
+            },
+            {
+                "name": "Binomial theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00030)": {
+        "items": [
+            {
+                "name": "Stirling's Formula",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00031)": {
+        "items": [
+            {
+                "name": "Maximum likelihood estimate for binomial success probability",
+                "type": "theorem"
+            },
+            {
+                "name": "Rising sequence definition",
+                "type": "definition"
+            },
+            {
+                "name": "All n pictures probability theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Binomial coefficient square sum identity",
+                "type": "theorem"
+            },
+            {
+                "name": "Exact head probability product theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Intermediate binomial coefficient integer theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Lucas' theorem on binomial coefficients modulo p",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00032)": {
+        "items": [
+            {
+                "type": "definition",
+                "name": "Rising Sequence"
+            },
+            {
+                "type": "definition",
+                "name": "a-Shuffle"
+            },
+            {
+                "type": "definition",
+                "name": "a-Unshuffle"
+            },
+            {
+                "type": "theorem",
+                "name": "Theorem 3.9"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00033)": {
+        "items": [
+            {
+                "name": "Theorem 3.10",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 3.11",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 3.12",
+                "type": "theorem"
+            },
+            {
+                "name": "Eulerian number",
+                "type": "definition"
+            },
+            {
+                "name": "Variation distance",
+                "type": "definition"
+            },
+            {
+                "name": "Cut-interleaving pair",
+                "type": "definition"
+            },
+            {
+                "name": "Rising sequence",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00034)": {
+        "items": [
+            {
+                "name": "Variation distance",
+                "type": "definition"
+            },
+            {
+                "name": "Rising sequence",
+                "type": "definition"
+            },
+            {
+                "name": "Fall",
+                "type": "definition"
+            },
+            {
+                "name": "a-shuffle",
+                "type": "definition"
+            },
+            {
+                "name": "a-unshuffle",
+                "type": "definition"
+            },
+            {
+                "name": "Theorem 3.9",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00035)": {
+        "items": [
+            {
+                "name": "Conditional probability",
+                "type": "definition"
+            },
+            {
+                "name": "Conditional distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Bayes probability",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00036)": {
+        "items": [
+            {
+                "name": "Independent events definition",
+                "type": "definition"
+            },
+            {
+                "name": "Independence product theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00037)": {
+        "items": [
+            {
+                "name": "Independent Events Definition",
+                "type": "definition"
+            },
+            {
+                "name": "Joint Distribution Function",
+                "type": "definition"
+            },
+            {
+                "name": "Mutually Independent Random Variables Definition",
+                "type": "definition"
+            },
+            {
+                "name": "Independent Trials Process Definition",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00038)": {
+        "items": [
+            {
+                "name": "Independent Trials Process",
+                "type": "definition"
+            },
+            {
+                "name": "Bayes' Formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Independent Events Definition",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00039)": {
+        "items": [
+            {
+                "name": "Bayes' formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Law of large numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Bernoulli trial",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00040)": {
+        "items": [
+            {
+                "type": "theorem",
+                "name": "Conditional probability of a head given total heads"
+            },
+            {
+                "type": "theorem",
+                "name": "Three-event independence criterion"
+            },
+            {
+                "type": "definition",
+                "name": "Definition of game win probability function P(r,s)"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00041)": {
+        "items": [
+            {
+                "type": "definition",
+                "name": "conditional distribution"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00042)": {
+        "items": [
+            {
+                "name": "Conditional probability",
+                "type": "definition"
+            },
+            {
+                "name": "Conditional density function",
+                "type": "definition"
+            },
+            {
+                "name": "Memoryless property",
+                "type": "theorem"
+            },
+            {
+                "name": "Independent Events Definition",
+                "type": "definition"
+            },
+            {
+                "name": "Independence product theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00043)": {
+        "items": [
+            {
+                "type": "definition",
+                "name": "Joint cumulative distribution function"
+            },
+            {
+                "type": "definition",
+                "name": "Mutual independence of continuous random variables"
+            },
+            {
+                "type": "theorem",
+                "name": "Joint density independence theorem"
+            },
+            {
+                "type": "theorem",
+                "name": "Functions of independent random variables are independent"
+            },
+            {
+                "type": "definition",
+                "name": "Independent trials process"
+            },
+            {
+                "type": "definition",
+                "name": "Beta density function"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00044)": {
+        "items": [
+            {
+                "name": "Beta density function",
+                "type": "definition"
+            },
+            {
+                "name": "Binomial distribution",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00045)": {
+        "items": [],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00046)": {
+        "items": [],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00047)": {
+        "items": [
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Law of large numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Uniform distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Discrete Uniform Distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Binomial distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Geometric distribution",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00048)": {
+        "items": [
+            {
+                "name": "Geometric Distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Negative Binomial Distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Poisson Distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Memoryless Property",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00049)": {
+        "items": [
+            {
+                "name": "Poisson Distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Binomial distribution",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00050)": {
+        "items": [
+            {
+                "name": "Hypergeometric Distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Benford Distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Fisher's Exact Test",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00051)": {
+        "items": [],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00052)": {
+        "items": [
+            {
+                "name": "Poisson distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Hypergeometric distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Binomial distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Euler's formula",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00053)": {
+        "items": [
+            {
+                "name": "Continuous Uniform Density",
+                "type": "definition"
+            },
+            {
+                "name": "Exponential Density",
+                "type": "definition"
+            },
+            {
+                "name": "Gamma Density",
+                "type": "definition"
+            },
+            {
+                "name": "Memoryless Property",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00054)": {
+        "items": [
+            {
+                "name": "Transformation Theorem for Continuous Random Variables",
+                "type": "theorem"
+            },
+            {
+                "name": "Density Transformation Corollary",
+                "type": "theorem"
+            },
+            {
+                "name": "Inverse Transform Sampling Corollary",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00055)": {
+        "items": [
+            {
+                "name": "Theorem 5.1",
+                "type": "theorem"
+            },
+            {
+                "name": "Standard normal random variable",
+                "type": "definition"
+            },
+            {
+                "name": "Standardization",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00056)": {
+        "items": [
+            {
+                "name": "chi-squared density",
+                "type": "definition"
+            },
+            {
+                "name": "Cauchy density",
+                "type": "definition"
+            },
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00057)": {
+        "items": [
+            {
+                "name": "Probability integral transform theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Transformation theorem for continuous random variables",
+                "type": "theorem"
+            },
+            {
+                "name": "Independence of transformed random variables theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Mean of a random variable definition",
+                "type": "definition"
+            },
+            {
+                "name": "Median of a random variable definition",
+                "type": "definition"
+            },
+            {
+                "name": "Mode of a random variable definition",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00058)": {
+        "items": [
+            {
+                "name": "Expected Value",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00059)": {
+        "items": [
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Expectation of a Function of a Random Variable Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Linearity of Expectation Theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00060)": {
+        "items": [
+            {
+                "name": "Expected number of successes in Bernoulli trials",
+                "type": "theorem"
+            },
+            {
+                "name": "Expectation of product of independent random variables",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00061)": {
+        "items": [
+            {
+                "name": "Conditional expectation",
+                "type": "definition"
+            },
+            {
+                "name": "Law of total expectation",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00062)": {
+        "items": [
+            {
+                "name": "Martingale",
+                "type": "definition"
+            },
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Huygens' Proposition I",
+                "type": "theorem"
+            },
+            {
+                "name": "Huygens' Proposition II",
+                "type": "theorem"
+            },
+            {
+                "name": "Huygens' Proposition III",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00063)": {
+        "items": [
+            {
+                "name": "Expected Value",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00064)": {
+        "items": [],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00065)": {
+        "items": [],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00066)": {
+        "items": [
+            {
+                "name": "Variance",
+                "type": "definition"
+            },
+            {
+                "name": "Standard Deviation",
+                "type": "definition"
+            },
+            {
+                "name": "Variance formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Scaling property of variance",
+                "type": "theorem"
+            },
+            {
+                "name": "Variance of sum of independent random variables",
+                "type": "theorem"
+            },
+            {
+                "name": "Variance and mean of independent trials process",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00067)": {
+        "items": [
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Bernoulli Trial",
+                "type": "definition"
+            },
+            {
+                "name": "Geometric Distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Poisson Distribution",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00068)": {
+        "items": [
+            {
+                "name": "Expected Value",
+                "type": "definition"
+            },
+            {
+                "name": "Spread of a Random Variable",
+                "type": "definition"
+            },
+            {
+                "name": "Theorem 6.2",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00069)": {
+        "items": [
+            {
+                "name": "Linearity of Expectation",
+                "type": "theorem"
+            },
+            {
+                "name": "Expectation of Function Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Product Expectation Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Variance Integral Formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Scaling property of variance",
+                "type": "theorem"
+            },
+            {
+                "name": "Variance formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Variance of sum of independent random variables",
+                "type": "theorem"
+            },
+            {
+                "name": "Variance",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00070)": {
+        "items": [
+            {
+                "name": "Theorem 6.10",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 6.11",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 6.14",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 6.15",
+                "type": "theorem"
+            },
+            {
+                "name": "Corollary 6.1",
+                "type": "theorem"
+            },
+            {
+                "name": "Little's law",
+                "type": "theorem"
+            },
+            {
+                "name": "Standardized version",
+                "type": "definition"
+            },
+            {
+                "name": "Independent Trials Process Definition",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00071)": {
+        "items": [
+            {
+                "name": "Little's law",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00072)": {
+        "items": [
+            {
+                "name": "Covariance",
+                "type": "definition"
+            },
+            {
+                "name": "Correlation",
+                "type": "definition"
+            },
+            {
+                "name": "Conditional density",
+                "type": "definition"
+            },
+            {
+                "name": "Conditional expected value",
+                "type": "definition"
+            },
+            {
+                "name": "Regression on the mean",
+                "type": "definition"
+            },
+            {
+                "name": "Standard normal random variable",
+                "type": "definition"
+            },
+            {
+                "name": "Set of constant density",
+                "type": "definition"
+            },
+            {
+                "name": "Variance addition formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Correlation bounds theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Constant density ellipse theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Sum of independent normal variables is normal",
+                "type": "theorem"
+            },
+            {
+                "name": "Conditional normal distribution theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00073)": {
+        "items": [
+            {
+                "name": "Convolution",
+                "type": "definition"
+            },
+            {
+                "name": "Commutativity of Convolution",
+                "type": "theorem"
+            },
+            {
+                "name": "Associativity of Convolution",
+                "type": "theorem"
+            },
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Point Count",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00074)": {
+        "items": [
+            {
+                "name": "Convolution Definition",
+                "type": "definition"
+            },
+            {
+                "name": "Sum of Independent Variables Theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00075)": {
+        "items": [
+            {
+                "name": "Theorem 5.1",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00076)": {
+        "items": [],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00077)": {
+        "items": [
+            {
+                "name": "Support of a function",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00078)": {
+        "items": [
+            {
+                "name": "Chebyshev Inequality",
+                "type": "theorem"
+            },
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Weak Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Strong Law of Large Numbers",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00079)": {
+        "items": [
+            {
+                "name": "Chebyshev's Inequality",
+                "type": "theorem"
+            },
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Bienayme-Chebyshev Inequality",
+                "type": "theorem"
+            },
+            {
+                "name": "Bernoulli trials process",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00080)": {
+        "items": [
+            {
+                "name": "Chebyshev Inequality",
+                "type": "theorem"
+            },
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Weak Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Strong Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Borel-Cantelli Lemma",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00081)": {
+        "items": [
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Chebyshev Inequality",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00082)": {
+        "items": [
+            {
+                "name": "Chebyshev Inequality",
+                "type": "theorem"
+            },
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "relative deviation",
+                "type": "definition"
+            },
+            {
+                "name": "standardized version",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00083)": {
+        "items": [
+            {
+                "name": "Standardized sum",
+                "type": "definition"
+            },
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Stirling's formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Standard normal density",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00084)": {
+        "items": [
+            {
+                "name": "Theorem 9.1",
+                "type": "theorem"
+            },
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00085)": {
+        "items": [
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "confidence interval",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00086)": {
+        "items": [
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Stirling's formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Chebyshev's Inequality",
+                "type": "theorem"
+            },
+            {
+                "name": "Distribution Function",
+                "type": "definition"
+            },
+            {
+                "name": "Normal distribution",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00087)": {
+        "items": [
+            {
+                "name": "Approximation Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Lindeberg's Theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00088)": {
+        "items": [
+            {
+                "type": "theorem",
+                "name": "Central Limit Theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00089)": {
+        "items": [
+            {
+                "name": "Hardy-Weinberg Law",
+                "type": "definition"
+            },
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Regression to the Mean",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00090)": {
+        "items": [
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00091)": {
+        "items": [
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Chebyshev inequality",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00092)": {
+        "items": [
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Chebyshev inequality",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00093)": {
+        "items": [
+            {
+                "name": "Moment of a random variable",
+                "type": "definition"
+            },
+            {
+                "name": "Moment generating function",
+                "type": "definition"
+            },
+            {
+                "name": "Moment Generating Function Uniqueness Theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00094)": {
+        "items": [
+            {
+                "name": "moment generating function",
+                "type": "definition"
+            },
+            {
+                "name": "ordinary generating function",
+                "type": "definition"
+            },
+            {
+                "name": "convolution of probability mass functions",
+                "type": "definition"
+            },
+            {
+                "name": "MGF of sum of independent random variables",
+                "type": "theorem"
+            },
+            {
+                "name": "sum of independent binomial distributions is binomial",
+                "type": "theorem"
+            },
+            {
+                "name": "sum of independent geometric distributions is negative binomial",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00095)": {
+        "items": [
+            {
+                "name": "Gambler's Ruin",
+                "type": "definition"
+            },
+            {
+                "name": "Branching process",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00096)": {
+        "items": [
+            {
+                "name": "Theorem 10.2",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00097)": {
+        "items": [
+            {
+                "type": "definition",
+                "name": "Generating function of a random variable"
+            },
+            {
+                "type": "definition",
+                "name": "Generating function of nth generation in a branching process"
+            },
+            {
+                "type": "definition",
+                "name": "Mean number of offspring"
+            },
+            {
+                "type": "definition",
+                "name": "Mean number of offspring in nth generation"
+            },
+            {
+                "type": "theorem",
+                "name": "Recursion for generating function in a branching process"
+            },
+            {
+                "type": "theorem",
+                "name": "Exponential growth of mean number of offspring"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00098)": {
+        "items": [
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Branching process",
+                "type": "definition"
+            },
+            {
+                "name": "Branching process limit theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 9.3",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00099)": {
+        "items": [
+            {
+                "name": "Branching process",
+                "type": "definition"
+            },
+            {
+                "name": "Extinction probability of branching process",
+                "type": "theorem"
+            },
+            {
+                "name": "Generating function for Poisson distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Generating function of random sum",
+                "type": "theorem"
+            },
+            {
+                "name": "Generating function of two-generation offspring",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00100)": {
+        "items": [
+            {
+                "name": "Moment of a random variable",
+                "type": "definition"
+            },
+            {
+                "name": "Moment generating function",
+                "type": "definition"
+            },
+            {
+                "name": "Theorem 10.3",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00101)": {
+        "items": [
+            {
+                "type": "theorem",
+                "name": "Central Limit Theorem"
+            },
+            {
+                "type": "theorem",
+                "name": "Theorem 10.4"
+            },
+            {
+                "type": "theorem",
+                "name": "Theorem 9.3"
+            },
+            {
+                "type": "definition",
+                "name": "characteristic function"
+            },
+            {
+                "type": "definition",
+                "name": "barp(x) step function"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00102)": {
+        "items": [
+            {
+                "name": "Characteristic function",
+                "type": "definition"
+            },
+            {
+                "name": "Cauchy density",
+                "type": "definition"
+            },
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00103)": {
+        "items": [
+            {
+                "name": "Markov chain",
+                "type": "definition"
+            },
+            {
+                "name": "State",
+                "type": "definition"
+            },
+            {
+                "name": "Transition probability",
+                "type": "definition"
+            },
+            {
+                "name": "Transition matrix",
+                "type": "definition"
+            },
+            {
+                "name": "Regular Markov chain",
+                "type": "definition"
+            },
+            {
+                "name": "Probability vector",
+                "type": "definition"
+            },
+            {
+                "name": "Theorem 11.1",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00104)": {
+        "items": [
+            {
+                "name": "Theorem 11.2",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00105)": {
+        "items": [
+            {
+                "name": "Absorbing Markov Chain",
+                "type": "definition"
+            },
+            {
+                "name": "Absorbing State",
+                "type": "definition"
+            },
+            {
+                "name": "Transient State",
+                "type": "definition"
+            },
+            {
+                "name": "Canonical Form",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00106)": {
+        "items": [
+            {
+                "name": "Probability of Absorption",
+                "type": "theorem"
+            },
+            {
+                "name": "Fundamental Matrix",
+                "type": "definition"
+            },
+            {
+                "name": "Time to Absorption",
+                "type": "theorem"
+            },
+            {
+                "name": "Absorption Probabilities",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00107)": {
+        "items": [
+            {
+                "name": "Absorbing Markov Chain",
+                "type": "definition"
+            },
+            {
+                "name": "Absorbing State",
+                "type": "definition"
+            },
+            {
+                "name": "Transient State",
+                "type": "definition"
+            },
+            {
+                "name": "Canonical Form",
+                "type": "definition"
+            },
+            {
+                "name": "Fundamental Matrix",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00108)": {
+        "items": [
+            {
+                "name": "Absorbing Markov Chain",
+                "type": "definition"
+            },
+            {
+                "name": "Expected number of trials before first occurrence of k consecutive successes",
+                "type": "theorem"
+            },
+            {
+                "name": "Gambler's Ruin",
+                "type": "theorem"
+            },
+            {
+                "name": "Expected absorption time for unbiased random walk is x(n-x)",
+                "type": "theorem"
+            },
+            {
+                "name": "Harmonic function for Markov chain",
+                "type": "definition"
+            },
+            {
+                "name": "Harmonic function properties (fair game remains fair)",
+                "type": "theorem"
+            },
+            {
+                "name": "Expected waiting time for a specific pattern",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00109)": {
+        "items": [
+            {
+                "name": "Absorbing Markov Chain",
+                "type": "definition"
+            },
+            {
+                "name": "Harmonic function",
+                "type": "definition"
+            },
+            {
+                "name": "Expected time to reach a pattern",
+                "type": "definition"
+            },
+            {
+                "name": "John Conway's formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 11.6",
+                "type": "theorem"
+            },
+            {
+                "name": "Martingale system theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Penney-ante game",
+                "type": "definition"
+            },
+            {
+                "name": "Stepping stone model",
+                "type": "definition"
+            },
+            {
+                "name": "Gambler's Ruin",
+                "type": "definition"
+            },
+            {
+                "name": "Markov chain",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00110)": {
+        "items": [
+            {
+                "name": "Ergodic Markov chain",
+                "type": "definition"
+            },
+            {
+                "name": "Regular Markov chain",
+                "type": "definition"
+            },
+            {
+                "name": "Fixed vector",
+                "type": "definition"
+            },
+            {
+                "name": "Limiting matrix theorem for regular Markov chains",
+                "type": "theorem"
+            },
+            {
+                "name": "Fixed vector theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00111)": {
+        "items": [
+            {
+                "name": "Theorem 11.8",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 11.9",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 11.10",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 11.11",
+                "type": "theorem"
+            },
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00112)": {
+        "items": [
+            {
+                "name": "Theorem 11.12",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00113)": {
+        "items": [
+            {
+                "name": "Theorem 1.7",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 11.8",
+                "type": "theorem"
+            },
+            {
+                "name": "Fundamental Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Lemma 11.1",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00114)": {
+        "items": [
+            {
+                "name": "Fundamental Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 11.14",
+                "type": "theorem"
+            },
+            {
+                "name": "Mean First Passage Time",
+                "type": "definition"
+            },
+            {
+                "name": "Fundamental Matrix",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00115)": {
+        "items": [
+            {
+                "name": "Mean first passage time",
+                "type": "definition"
+            },
+            {
+                "name": "Mean recurrence time",
+                "type": "definition"
+            },
+            {
+                "name": "Mean first passage matrix",
+                "type": "definition"
+            },
+            {
+                "name": "Mean recurrence matrix",
+                "type": "definition"
+            },
+            {
+                "name": "Mean recurrence time theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Fundamental matrix",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00116)": {
+        "items": [
+            {
+                "name": "Fundamental Matrix",
+                "type": "definition"
+            },
+            {
+                "name": "Mean First Passage Matrix Theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00117)": {
+        "items": [
+            {
+                "name": "Central Limit Theorem for Markov Chains",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00118)": {
+        "items": [
+            {
+                "name": "Mean first passage time",
+                "type": "definition"
+            },
+            {
+                "name": "Mean first passage matrix",
+                "type": "definition"
+            },
+            {
+                "name": "Mean recurrence time",
+                "type": "definition"
+            },
+            {
+                "name": "Fundamental matrix",
+                "type": "definition"
+            },
+            {
+                "name": "Fixed vector",
+                "type": "definition"
+            },
+            {
+                "name": "Theorem 11.16",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00119)": {
+        "items": [
+            {
+                "name": "Random Walk",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00120)": {
+        "items": [
+            {
+                "type": "theorem",
+                "name": "Theorem 12.1"
+            },
+            {
+                "type": "theorem",
+                "name": "Theorem 12.2"
+            },
+            {
+                "type": "theorem",
+                "name": "Theorem 12.3"
+            },
+            {
+                "type": "definition",
+                "name": "First return to the origin"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00121)": {
+        "items": [
+            {
+                "name": "Stirling's Formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 12.2",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 12.3",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00122)": {
+        "items": [
+            {
+                "name": "Binomial Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Stirling's Formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Maximum of partial sum M_n definition",
+                "type": "definition"
+            },
+            {
+                "name": "Distribution of maximum of simple random walk theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Last return to the origin probability theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Probability of no equalization theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Probability of staying nonnegative theorem",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00123)": {
+        "items": [
+            {
+                "name": "Gambler's Ruin",
+                "type": "theorem"
+            },
+            {
+                "name": "Binomial coefficient square sum identity",
+                "type": "theorem"
+            },
+            {
+                "name": "Stirling's Formula",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00124)": {
+        "items": [
+            {
+                "name": "Martingale",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00125)": {
+        "items": [
+            {
+                "name": "Theorem 12.4",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 12.5",
+                "type": "theorem"
+            },
+            {
+                "name": "Theorem 12.6",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00126)": {
+        "items": [
+            {
+                "name": "Theorem 12.5",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-safeguard-20b"
+    },
+    "prob(00127)": {
+        "items": [
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Chebyshev Inequality",
+                "type": "theorem"
+            },
+            {
+                "name": "Bayes' Formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Absorbing Markov Chain",
+                "type": "definition"
+            },
+            {
+                "name": "Absorbing State",
+                "type": "definition"
+            },
+            {
+                "name": "Bernoulli Trial",
+                "type": "definition"
+            },
+            {
+                "name": "Bernoulli trials process",
+                "type": "definition"
+            },
+            {
+                "name": "Markov Chain",
+                "type": "definition"
+            },
+            {
+                "name": "Random Walk",
+                "type": "definition"
+            },
+            {
+                "name": "Bayes Probability",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-20b"
+    },
+    "prob(00128)": {
+        "items": [
+            {
+                "name": "Fundamental Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Inclusion-Exclusion Principle",
+                "type": "theorem"
+            },
+            {
+                "name": "Little's law",
+                "type": "theorem"
+            },
+            {
+                "name": "Ergodic Markov Chain",
+                "type": "definition"
+            },
+            {
+                "name": "Markov chain",
+                "type": "definition"
+            },
+            {
+                "name": "Uniform distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Distribution Function",
+                "type": "definition"
+            },
+            {
+                "name": "Density function",
+                "type": "definition"
+            },
+            {
+                "name": "Exponential density",
+                "type": "definition"
+            },
+            {
+                "name": "Geometric distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Hypergeometric Distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Poisson Distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Binomial distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Negative binomial distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Gambler's Ruin",
+                "type": "definition"
+            },
+            {
+                "name": "Labouchere system",
+                "type": "definition"
+            },
+            {
+                "name": "Monte Carlo Method",
+                "type": "definition"
+            },
+            {
+                "name": "Random Walk",
+                "type": "definition"
+            },
+            {
+                "name": "Random Variable",
+                "type": "definition"
+            },
+            {
+                "name": "Event",
+                "type": "definition"
+            },
+            {
+                "name": "Sample Space",
+                "type": "definition"
+            },
+            {
+                "name": "Outcome",
+                "type": "definition"
+            },
+            {
+                "name": "Independent events definition",
+                "type": "definition"
+            },
+            {
+                "name": "Joint Distribution Function",
+                "type": "definition"
+            },
+            {
+                "name": "Mean First Passage Time",
+                "type": "definition"
+            },
+            {
+                "name": "Mean recurrence time",
+                "type": "definition"
+            },
+            {
+                "name": "Euler's formula",
+                "type": "theorem"
+            },
+            {
+                "name": "Hardy-Weinberg Law",
+                "type": "theorem"
+            },
+            {
+                "name": "Law of Averages",
+                "type": "theorem"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    },
+    "prob(00129)": {
+        "items": [
+            {
+                "name": "Rayleigh Density",
+                "type": "definition"
+            },
+            {
+                "name": "t-Density",
+                "type": "definition"
+            },
+            {
+                "name": "Weierstrass Approximation Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Strong Law of Large Numbers",
+                "type": "theorem"
+            },
+            {
+                "name": "Central Limit Theorem",
+                "type": "theorem"
+            },
+            {
+                "name": "Regular Markov Chain",
+                "type": "definition"
+            },
+            {
+                "name": "Absorbing State",
+                "type": "definition"
+            },
+            {
+                "name": "Transient State",
+                "type": "definition"
+            },
+            {
+                "name": "Transition Matrix",
+                "type": "definition"
+            },
+            {
+                "name": "Transition Probability",
+                "type": "definition"
+            },
+            {
+                "name": "Tree Diagram",
+                "type": "definition"
+            },
+            {
+                "name": "Uniform Distribution",
+                "type": "definition"
+            },
+            {
+                "name": "Standard Deviation",
+                "type": "definition"
+            },
+            {
+                "name": "Standard Normal Random Variable",
+                "type": "definition"
+            },
+            {
+                "name": "Variance",
+                "type": "definition"
+            },
+            {
+                "name": "Sample Mean",
+                "type": "definition"
+            },
+            {
+                "name": "Sample Variance",
+                "type": "definition"
+            },
+            {
+                "name": "Sample Standard Deviation",
+                "type": "definition"
+            },
+            {
+                "name": "Standardized Random Variable",
+                "type": "definition"
+            },
+            {
+                "name": "Standardized Sum",
+                "type": "definition"
+            }
+        ],
+        "source": "openai/gpt-oss-120b"
+    }
+}

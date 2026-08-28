@@ -1,0 +1,3 @@
+# Examples
+Example 10.1: For a uniform distribution on {1,…,n}, the mgf is g(t)=n^{-1}(e^t+e^{2t}+⋯+e^{nt}).  The form of g(t) shows that the masses are equal and located at the integers 1,…,n, matching the distribution.  Example 10.2: For a binomial distribution with parameters n and p, g(t)=(pe^t+q)^n.  The binomial form of g(t) uniquely identifies the distribution.  Example 10.3: For a geometric distribution on {1,2,…} with success probability p, g(t)=pe^t/(1−qe^t).  This rational function characterizes the geometric distribution uniquely.  Example 10.4: For a Poisson distribution with mean λ, g(t)=e^{λ(e^t−1)}.  The exponential form of g(t) uniquely determines the Poisson law.
+

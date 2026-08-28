@@ -1,0 +1,3 @@
+# Examples
+In the dart game of Example 4.21, letting E be the event that the dart lands in the upper half of the target and F the event that it lands in the right half, the intersection lies in the first quadrant.  Calculating the area of the first quadrant and comparing with the areas of E and F separately shows that P(E∩F)=P(E)P(F), confirming independence via the product theorem.  This example also illustrates that independence can arise when events constrain different coordinates, leading to factorization of joint densities.  No other explicit example of the product theorem appears in the provided text.
+

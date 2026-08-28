@@ -1,0 +1,3 @@
+# Interpretation
+The equation (mathbf{B}=mathbf{N}mathbf{R}) expresses that the overall absorption probability from a transient state is the sum over all possible paths of a single step into a transient state followed by eventual absorption, weighted by the expected number of visits to each transient state. The fundamental matrix (mathbf{N}) counts expected visits to each transient state before absorption, while (mathbf{R}) records the chance of moving directly from a transient state into a specific absorbing state. Thus (mathbf{B}) is obtained by weighting the one‑step absorption probabilities by the expected visit counts.
+

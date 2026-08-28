@@ -1,0 +1,3 @@
+# Interpretation
+Each entry $m_{ij}$ of $M$ is the expected number of steps the chain, started in state $i$, will take before it visits state $j$ for the first time. The formula shows that this expectation depends only on two quantities from the fundamental matrix: the diagonal entry $z_{jj}$, which captures the average cumulative time the chain spends in $j$ when started from the stationary distribution, and the off‑diagonal entry $z_{ij}$, which captures the same cumulative time when starting from $i$. The division by $w_j$ adjusts for how frequently state $j$ is visited in the long run, converting cumulative time differences into a first‑passage expectation.
+

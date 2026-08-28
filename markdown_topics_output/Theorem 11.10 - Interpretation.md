@@ -1,0 +1,3 @@
+# Interpretation
+Theorem 11.10 formalizes the long‑run stability of finite ergodic Markov chains: there is exactly one stationary distribution, and it assigns a positive probability to every state, reflecting the chain’s ability to reach all states from any starting state. Any row vector that remains unchanged after applying $P$ must be proportional to this stationary vector, so the stationary distribution is unique up to scaling. The statement that any column eigenvector with eigenvalue 1 is constant underscores that the chain’s equilibrium behaviour is the same from every starting state; the all‑ones column vector is the only right eigenvector associated with the eigenvalue 1, which is a standard consequence of ergodicity.
+
