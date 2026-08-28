@@ -285,6 +285,8 @@ Text: {content}
 
       response = get_definite_response(messages, theorem_text_extraction_response_format)
       objresponse = None
+      if response != None:
+        objresponse = json.loads(response.choices[0].message.content)
       while response != None and not validate_response(objresponse):
         response = get_definite_response(messages, theorem_text_extraction_response_format)
         if response != None:
@@ -387,6 +389,8 @@ Text: {content}
 
       response = get_definite_response(messages, theorem_text_extraction_response_format)
       objresponse = None
+      if response != None:
+        objresponse = json.loads(response.choices[0].message.content)
       while response != None and not validate_response(objresponse):
         response = get_definite_response(messages, theorem_text_extraction_response_format)
         if response != None:
