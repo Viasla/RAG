@@ -12,6 +12,59 @@ def save_datasets():
   with open("datasets.json", "w") as f:
     json.dump(datasets, f, indent = 4)
 
+def validate_datasets():
+  definition_topics = ["Historical Notes", "Intuition", "Formal Definition", "Examples", "Notation", "Interpretation", "Properties"]
+  theorem_topics = ["Historical Notes", "Intuition", "Statement", "Proof", "Examples", "Notation", "Interpretation"]
+  if not isinstance(datasets, dict):
+    return False
+  if not "theorems" in datasets or not "definitions" in datasets:
+    return False
+  if not isinstance(datasets["definitions"], dict) or not isinstance(datasets["theorems"], dict):
+    return False
+
+  for key, value in datasets["definitions"].items():
+    if not isinstance(value, dict):
+      return False
+    if not all(k in value for k in definition_topics):
+      return False
+    for topic in definition_topics:
+      if not isinstance(value[topic], list):
+        return False
+      for source in value[topic]:
+        if not isinstance(source, dict):
+          return False
+        if not "items" in source:
+          print(f"  [!!!] {key} - {topic} have to have \"items\"")
+          return False
+        if not isinstance(source["items"], list):
+          print(f"[!!!] {key} - {topic} have to have \"items\" as list")
+          return False
+        for item in source["items"]:
+          if not isinstance(item, str):
+            print(f"[!!!] {key} - {topic} - {item} have to be a string")
+            return False 
+
+  for key, value in datasets["theorems"].items():
+    if not isinstance(value, dict):
+      return False
+    if not all(k in value for k in theorem_topics):
+      return False
+    for topic in theorem_topics:
+      if not isinstance(value[topic], list):
+        return False
+      for source in value[topic]:
+        if not "items" in source:
+          print(f"  [!!!] {key} - {topic} have to have \"items\"")
+          return False
+        if not isinstance(source["items"], list):
+          print(f"[!!!] {key} - {topic} have to have \"items\" as list")
+          return False
+        for item in source["items"]:
+          if not isinstance(item, str):
+            print(f"[!!!] {key} - {topic} - {item} have to be a string")
+            return False 
+  return True
+
 
 #Loading datasets
 
@@ -59,8 +112,8 @@ else:
   print("Created datasets")
 
 
-
-
+print("Validating datasets")
+print(f"Is valid structure: {validate_datasets()}")
 
 
 
@@ -165,6 +218,21 @@ theorem_text_extraction_response_format = {
     }
 
 
+def validate_response(json_obj):
+  if not isinstance(json_obj, dict):
+    print("is not dict")
+    return False
+  for key, value in json_obj.items():
+    if not isinstance(value, list):
+      print(f"{key} value is not list")
+      return False
+    for item in value:
+      if not isinstance(item, str):
+        print(f"{key} - {item} is not str")
+        return False
+  return True
+
+
 
 try:
   print("Completing definitions in datasets...")
@@ -212,10 +280,16 @@ Text: {content}
           }
       ]
 
-      response = get_definite_response(messages, definition_text_extraction_response_format)
+      print("Generating response")
 
-      if response != None:
-        objresponse = json.loads(response.choices[0].message.content)
+      response = get_definite_response(messages, theorem_text_extraction_response_format)
+      objresponse = None
+      while response != None and not validate_response(objresponse):
+        response = get_definite_response(messages, theorem_text_extraction_response_format)
+        if response != None:
+          objresponse = json.loads(response.choices[0].message.content)
+
+      if response != None and validate_response(objresponse):
         if "Historical Notes" in objresponse:
           datasets["definitions"][name]["Historical Notes"].append({
                 "items" : objresponse["Historical Notes"],
@@ -307,11 +381,17 @@ Text: {content}
 """
           }
       ]
+      
+      print("Generating response")
 
       response = get_definite_response(messages, theorem_text_extraction_response_format)
+      objresponse = None
+      while response != None and not validate_response(objresponse):
+        response = get_definite_response(messages, theorem_text_extraction_response_format)
+        if response != None:
+          objresponse = json.loads(response.choices[0].message.content)
 
-      if response != None:
-        objresponse = json.loads(response.choices[0].message.content)
+      if response != None and validate_response(objresponse):
         if "Historical Notes" in objresponse:
           datasets["theorems"][name]["Historical Notes"].append({
                 "items" : objresponse["Historical Notes"],
