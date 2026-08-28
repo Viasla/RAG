@@ -3,11 +3,9 @@ from pathlib import Path
 import os
 import json
 
-definition_topics = ["Historical Notes", "Intuition", "Formal Definition", "Examples", "Notation", "Interpretation", "Properties"]
-theorem_topics = ["Historical Notes", "Intuition", "Statement", "Proof", "Examples", "Notation", "Interpretation"]
+from datasets import datasets
 
-if os.path.exists("datasets.json"):
-  datasets = json.load(open("datasets.json", "r"))
+from datasets import definition_topics, theorem_topics
 
 Path("markdown_output").mkdir(parents=True, exist_ok=True)
 
