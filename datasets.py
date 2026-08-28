@@ -1,6 +1,8 @@
 import os
 import json
 
+import tools
+
 from topics import topics_json_response
 from tools import get_definite_response
 
@@ -27,6 +29,7 @@ else:
           datasets["definitions"][item["name"]]["source"].append(key)
         else:
           datasets["definitions"][item["name"]] = {
+              "topic_source" : items["source"],
               "source": [key],
               "Historical Notes": [],
               "Intuition": [],
@@ -41,6 +44,7 @@ else:
           datasets["theorems"][item["name"]]["source"].append(key)
         else:
           datasets["theorems"][item["name"]] = {
+              "topic_source" : items["source"],
               "source": [key],
               "Historical Notes": [],
               "Intuition": [],
@@ -213,19 +217,47 @@ Text: {content}
       if response != None:
         objresponse = json.loads(response.choices[0].message.content)
         if "Historical Notes" in objresponse:
-          datasets["definitions"][name]["Historical Notes"].extend(objresponse["Historical Notes"])
+          datasets["definitions"][name]["Historical Notes"].append({
+                "items" : objresponse["Historical Notes"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         if "Intuition" in objresponse:
-          datasets["definitions"][name]["Intuition"].extend(objresponse["Intuition"])
+          datasets["definitions"][name]["Intuition"].append({
+                "items" : objresponse["Intuition"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         if "Formal Definition" in objresponse:
-          datasets["definitions"][name]["Formal Definition"].extend(objresponse["Formal Definition"])
+          datasets["definitions"][name]["Formal Definition"].append({
+                "items" : objresponse["Formal Definition"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         if "Examples" in objresponse:
-          datasets["definitions"][name]["Examples"].extend(objresponse["Examples"])
+          datasets["definitions"][name]["Examples"].append({
+                "items" : objresponse["Examples"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         if "Notation" in objresponse:
-          datasets["definitions"][name]["Notation"].extend(objresponse["Notation"])
+          datasets["definitions"][name]["Notation"].append({
+                "items" : objresponse["Notation"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         if "Interpretation" in objresponse:
-          datasets["definitions"][name]["Interpretation"].extend(objresponse["Interpretation"])
+          datasets["definitions"][name]["Interpretation"].append({
+                "items" : objresponse["Interpretation"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         if "Properties" in objresponse:
-          datasets["definitions"][name]["Properties"].extend(objresponse["Properties"])
+          datasets["definitions"][name]["Properties"].append({
+                "items" : objresponse["Properties"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         desc["source"].remove(source)
         print(f"{name} : {source} [Full]")
         save_datasets()
@@ -281,19 +313,47 @@ Text: {content}
       if response != None:
         objresponse = json.loads(response.choices[0].message.content)
         if "Historical Notes" in objresponse:
-          datasets["theorems"][name]["Historical Notes"].extend(objresponse["Historical Notes"])
+          datasets["theorems"][name]["Historical Notes"].append({
+                "items" : objresponse["Historical Notes"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         if "Intuition" in objresponse:
-          datasets["theorems"][name]["Intuition"].extend(objresponse["Intuition"])
+          datasets["theorems"][name]["Intuition"].append({
+                "items" : objresponse["Intuition"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         if "Statement" in objresponse:
-          datasets["theorems"][name]["Statement"].extend(objresponse["Statement"])
+          datasets["theorems"][name]["Statement"].append({
+                "items" : objresponse["Statement"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         if "Examples" in objresponse:
-          datasets["theorems"][name]["Examples"].extend(objresponse["Examples"])
+          datasets["theorems"][name]["Examples"].append({
+                "items" : objresponse["Examples"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         if "Notation" in objresponse:
-          datasets["theorems"][name]["Notation"].extend(objresponse["Notation"])
+          datasets["theorems"][name]["Notation"].append({
+                "items" : objresponse["Notation"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         if "Interpretation" in objresponse:
-          datasets["theorems"][name]["Interpretation"].extend(objresponse["Interpretation"])
+          datasets["theorems"][name]["Interpretation"].append({
+                "items" : objresponse["Interpretation"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         if "Proof" in objresponse:
-          datasets["theorems"][name]["Proof"].extend(objresponse["Proof"])
+          datasets["theorems"][name]["Proof"].append({
+                "items" : objresponse["Proof"],
+                "source" : source,
+                "model" : tools.get_model()
+            })
         desc["source"].remove(source)
         print(f"[Full] {name} : {source}")
         save_datasets()
