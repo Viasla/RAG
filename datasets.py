@@ -6,8 +6,6 @@ import tools
 from topics import topics_json_response
 from tools import get_definite_response
 
-datasets = {}
-
 def save_datasets():
   with open("datasets.json", "w") as f:
     json.dump(datasets, f, indent = 4)
@@ -68,8 +66,11 @@ def validate_datasets():
 
 #Loading datasets
 
+datasets = {}
+
 if os.path.exists("datasets.json"):
   datasets = json.load(open("datasets.json", "r"))
+  
   print("Datasets loaded from memory")
 else:
   datasets["theorems"] = {}
